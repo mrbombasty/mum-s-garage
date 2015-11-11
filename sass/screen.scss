@@ -1,0 +1,128 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+$primary-color: #e9747b;
+$main-font: 'Open Sans', sans-serif;
+$standard-spacing: .5px;
+$standard-line-height: 1.5;
+$header-color: #555;
+$body-color: #777;
+$grey-bg: #f9fbfc;
+$grey-line: #ebebeb;
+
+
+body{
+	
+}
+
+h1, h2, h3, h4, h5, p, a{
+	font-family: $main-font;
+	font-weight: 300;
+	line-height: $standard-line-height;
+	color: $header-color;
+}
+
+p{
+	color: $body-color;
+	font-size: 17px;
+	letter-spacing: $standard-spacing;
+}
+
+strong{
+	font-weight: 600;
+}
+
+.btn, .btn:hover{
+	color: #fff;
+	text-transform:uppercase;
+	border-radius: 40px;
+	padding: 15px 45px;
+	font-size: 13px;
+	font-weight: 400;
+	letter-spacing: $standard-spacing;
+}
+
+
+
+.navbar{
+	position: absolute;
+	width: 100%;
+	background: none;
+	border-bottom: 1px solid;
+	border-color: rgba(255,255,255,.3);
+	.navbar-nav li a, .navbar-nav li a:hover{
+		color: #fff;
+		padding: 30px;
+		text-transform: uppercase;
+		font-size: 12px;
+		opacity: .8;
+		letter-spacing: $standard-spacing;
+		font-weight: 400;
+	}
+	.navbar-nav li a:hover{
+		opacity: 1;
+	}
+	
+}
+
+
+
+.intro{
+	padding: 220px 0 200px;
+	text-align: center;
+	background: url(../img/bg.jpg);
+	background-size: cover;
+	.intro-center{
+		h1{
+			font-size: 42px;
+			display: inline-block;
+			color: #fff
+		}
+		p{
+			
+			padding: 15px 0 30px;
+			color: #fff;
+			
+		}
+		.btn{
+			border: 2px solid #fff;
+		}
+		.btn:hover{
+			background: #fff;
+			color: #e9747b;
+		}
+		
+	}
+}
+
+.mission{
+	padding: 140px 0;
+	text-align: center;
+	h1{
+		font-size: 23px;
+		font-weight: 600;
+		letter-spacing: $standard-spacing;
+		margin-bottom: 20px;
+	}
+}
+
+.header{
+	font-size: 34px;
+	letter-spacing: $standard-spacing;
+}
+
+.header-block{
+	height: 5px;
+	width: 50px;
+	margin: 0 auto;
+	background: $primary-color
+}
+
+.what-we-do{
+	padding: 140px 0;
+	background: $grey-bg;
+	border: 1px $grey-line solid;
+	text-align: center;
+}
