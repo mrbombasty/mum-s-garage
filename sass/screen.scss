@@ -11,6 +11,8 @@ $header-color: #555;
 $body-color: #777;
 $grey-bg: #f9fbfc;
 $grey-line: #ebebeb;
+$section-padding: 140px 0;
+$block-size: 450px;
 
 
 body{
@@ -64,6 +66,11 @@ strong{
 	.navbar-nav li a:hover{
 		opacity: 1;
 	}
+	.navbar-brand{
+		padding-top: 34px;
+		height: auto;
+		margin: 0;
+	}
 	
 }
 
@@ -75,6 +82,9 @@ strong{
 	background: url(../img/bg.jpg);
 	background-size: cover;
 	.intro-center{
+		img{
+			margin-bottom: 20px;
+		}
 		h1{
 			font-size: 42px;
 			display: inline-block;
@@ -98,7 +108,7 @@ strong{
 }
 
 .mission{
-	padding: 140px 0;
+	padding: $section-padding;
 	text-align: center;
 	h1{
 		font-size: 23px;
@@ -111,9 +121,10 @@ strong{
 .header{
 	font-size: 34px;
 	letter-spacing: $standard-spacing;
+	text-align: center;
 }
 
-.header-block{
+.header-dash{
 	height: 5px;
 	width: 50px;
 	margin: 0 auto;
@@ -121,8 +132,23 @@ strong{
 }
 
 .what-we-do{
-	padding: 140px 0;
+	padding: $section-padding;
 	background: $grey-bg;
 	border: 1px $grey-line solid;
-	text-align: center;
+	.what-we-do-section{
+		margin: 80px 0;
+		
+		.block{
+			background: #000;
+			padding: 0;
+			img{
+				width: 100%;
+			}
+		}
+		p{
+			padding-left: 20px;
+			font-size: 20px;
+		}
+
+	}
 }
