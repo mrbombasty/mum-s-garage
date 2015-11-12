@@ -3,7 +3,7 @@
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 /* line 22, ../sass/screen.scss */
-h1, h2, h3, h4, h5, p, a {
+h1, h2, h3, h4, h5, p, a, ol li {
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
   line-height: 1.5;
@@ -11,7 +11,7 @@ h1, h2, h3, h4, h5, p, a {
 }
 
 /* line 29, ../sass/screen.scss */
-p {
+p, ol li {
   color: #777;
   font-size: 17px;
   letter-spacing: 0.5px;
@@ -23,6 +23,12 @@ strong {
 }
 
 /* line 39, ../sass/screen.scss */
+a, a:hover {
+  color: #e9747b;
+  font-weight: 400;
+}
+
+/* line 45, ../sass/screen.scss */
 .btn, .btn:hover {
   color: #fff;
   text-transform: uppercase;
@@ -33,7 +39,7 @@ strong {
   letter-spacing: 0.5px;
 }
 
-/* line 51, ../sass/screen.scss */
+/* line 57, ../sass/screen.scss */
 .navbar {
   position: absolute;
   width: 100%;
@@ -41,7 +47,7 @@ strong {
   border-bottom: 1px solid;
   border-color: rgba(255, 255, 255, 0.3);
 }
-/* line 57, ../sass/screen.scss */
+/* line 63, ../sass/screen.scss */
 .navbar .navbar-nav li a, .navbar .navbar-nav li a:hover {
   color: #fff;
   padding: 30px;
@@ -51,70 +57,73 @@ strong {
   letter-spacing: 0.5px;
   font-weight: 400;
 }
-/* line 66, ../sass/screen.scss */
+/* line 72, ../sass/screen.scss */
 .navbar .navbar-nav li a:hover {
   opacity: 1;
 }
-/* line 69, ../sass/screen.scss */
+/* line 75, ../sass/screen.scss */
 .navbar .navbar-brand {
   padding-top: 34px;
   height: auto;
   margin: 0;
 }
 
-/* line 79, ../sass/screen.scss */
+/* line 85, ../sass/screen.scss */
 .intro {
   padding: 220px 0 200px;
   text-align: center;
   background: url(../img/bg.jpg);
   background-size: cover;
 }
-/* line 85, ../sass/screen.scss */
+/* line 91, ../sass/screen.scss */
 .intro .intro-center img {
   margin-bottom: 20px;
 }
-/* line 88, ../sass/screen.scss */
+/* line 94, ../sass/screen.scss */
 .intro .intro-center h1 {
   font-size: 42px;
   display: inline-block;
   color: #fff;
 }
-/* line 93, ../sass/screen.scss */
+/* line 99, ../sass/screen.scss */
 .intro .intro-center p {
   padding: 15px 0 30px;
   color: #fff;
 }
-/* line 99, ../sass/screen.scss */
+/* line 105, ../sass/screen.scss */
 .intro .intro-center .btn {
   border: 2px solid #fff;
 }
-/* line 102, ../sass/screen.scss */
+/* line 108, ../sass/screen.scss */
 .intro .intro-center .btn:hover {
   background: #fff;
   color: #e9747b;
 }
 
-/* line 110, ../sass/screen.scss */
+/* line 116, ../sass/screen.scss */
 .mission {
   padding: 140px 0;
   text-align: center;
 }
-/* line 113, ../sass/screen.scss */
+/* line 119, ../sass/screen.scss */
 .mission h1 {
-  font-size: 23px;
-  font-weight: 600;
+  font-size: 26px;
   letter-spacing: 0.5px;
   margin-bottom: 20px;
 }
+/* line 124, ../sass/screen.scss */
+.mission p {
+  padding-top: 40px;
+}
 
-/* line 121, ../sass/screen.scss */
+/* line 129, ../sass/screen.scss */
 .header {
-  font-size: 34px;
+  font-size: 36px;
   letter-spacing: 0.5px;
   text-align: center;
 }
 
-/* line 127, ../sass/screen.scss */
+/* line 135, ../sass/screen.scss */
 .header-dash {
   height: 5px;
   width: 50px;
@@ -122,27 +131,86 @@ strong {
   background: #e9747b;
 }
 
-/* line 134, ../sass/screen.scss */
+/* line 142, ../sass/screen.scss */
 .what-we-do {
-  padding: 140px 0;
+  padding: 140px 0 60px;
   background: #f9fbfc;
-  border: 1px #ebebeb solid;
+  border-top: 1px #ebebeb solid;
 }
-/* line 138, ../sass/screen.scss */
-.what-we-do .what-we-do-section {
+/* line 146, ../sass/screen.scss */
+.what-we-do .what-we-do-segment {
   margin: 80px 0;
+  position: relative;
 }
-/* line 141, ../sass/screen.scss */
-.what-we-do .what-we-do-section .block {
-  background: #000;
+/* line 150, ../sass/screen.scss */
+.what-we-do .what-we-do-segment .block {
   padding: 0;
+  box-shadow: 0px 10px 60.14px 4px rgba(0, 0, 0, 0.25);
 }
-/* line 144, ../sass/screen.scss */
-.what-we-do .what-we-do-section .block img {
+/* line 153, ../sass/screen.scss */
+.what-we-do .what-we-do-segment .block .block-img {
   width: 100%;
 }
-/* line 148, ../sass/screen.scss */
-.what-we-do .what-we-do-section p {
-  padding-left: 20px;
+/* line 156, ../sass/screen.scss */
+.what-we-do .what-we-do-segment .block .block-inner {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+/* line 161, ../sass/screen.scss */
+.what-we-do .what-we-do-segment .block .block-inner .block-inner-inner {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+/* line 165, ../sass/screen.scss */
+.what-we-do .what-we-do-segment .block .block-inner .block-inner-inner .block-inner-inner-inner {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+/* line 169, ../sass/screen.scss */
+.what-we-do .what-we-do-segment .block .block-inner .block-inner-inner .block-inner-inner-inner h1 {
+  text-align: center;
+  color: #fff;
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+/* line 180, ../sass/screen.scss */
+.what-we-do .what-we-do-segment .info {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  padding-left: 80px;
+  padding-right: 0;
+}
+/* line 187, ../sass/screen.scss */
+.what-we-do .what-we-do-segment .info p, .what-we-do .what-we-do-segment .info ol li {
   font-size: 20px;
+}
+/* line 190, ../sass/screen.scss */
+.what-we-do .what-we-do-segment .info ol {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+/* line 194, ../sass/screen.scss */
+.what-we-do .what-we-do-segment .info ol li {
+  padding: 5px 0;
+}
+/* line 200, ../sass/screen.scss */
+.what-we-do .what-we-do-segment-right .block {
+  float: right;
+}
+/* line 203, ../sass/screen.scss */
+.what-we-do .what-we-do-segment-right .info {
+  padding-left: 0;
+  padding-right: 80px;
+}
+
+/* line 210, ../sass/screen.scss */
+.excited {
+  padding-bottom: 140px;
+  background: #f9fbfc;
 }
