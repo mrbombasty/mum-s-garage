@@ -216,7 +216,7 @@ a, a:hover {
 /* line 207, ../sass/screen.scss */
 .what-we-do {
   padding-top: 140px;
-  background: #F9FBFC;
+  background: #Fff;
   border-top: 1px #ebebeb solid;
 }
 /* line 211, ../sass/screen.scss */
@@ -232,27 +232,28 @@ a, a:hover {
 /* line 218, ../sass/screen.scss */
 .what-we-do .what-we-do-segment .block .block-img {
   width: 100%;
+  height: 100%;
 }
-/* line 221, ../sass/screen.scss */
+/* line 222, ../sass/screen.scss */
 .what-we-do .what-we-do-segment .block .block-inner {
   position: absolute;
   top: 0;
   width: 100%;
   height: 100%;
 }
-/* line 226, ../sass/screen.scss */
+/* line 227, ../sass/screen.scss */
 .what-we-do .what-we-do-segment .block .block-inner .block-inner-inner {
   display: table;
   width: 100%;
   height: 100%;
 }
-/* line 230, ../sass/screen.scss */
+/* line 231, ../sass/screen.scss */
 .what-we-do .what-we-do-segment .block .block-inner .block-inner-inner .block-inner-inner-inner {
   display: table-cell;
   vertical-align: middle;
   text-align: center;
 }
-/* line 234, ../sass/screen.scss */
+/* line 235, ../sass/screen.scss */
 .what-we-do .what-we-do-segment .block .block-inner .block-inner-inner .block-inner-inner-inner h1 {
   text-align: center;
   color: #fff;
@@ -260,7 +261,7 @@ a, a:hover {
   letter-spacing: 2px;
   font-weight: 400;
 }
-/* line 246, ../sass/screen.scss */
+/* line 247, ../sass/screen.scss */
 .what-we-do .what-we-do-segment .info {
   position: absolute;
   left: 0;
@@ -269,68 +270,68 @@ a, a:hover {
   padding-left: 80px;
   padding-right: 0;
 }
-/* line 253, ../sass/screen.scss */
+/* line 254, ../sass/screen.scss */
 .what-we-do .what-we-do-segment .info p, .what-we-do .what-we-do-segment .info ol li {
   font-size: 16px;
 }
-/* line 256, ../sass/screen.scss */
+/* line 257, ../sass/screen.scss */
 .what-we-do .what-we-do-segment .info ol {
   padding-top: 10px;
   padding-bottom: 10px;
 }
-/* line 260, ../sass/screen.scss */
+/* line 261, ../sass/screen.scss */
 .what-we-do .what-we-do-segment .info ol li {
   padding: 5px 0;
 }
-/* line 263, ../sass/screen.scss */
+/* line 264, ../sass/screen.scss */
 .what-we-do .what-we-do-segment .info h3 {
   font-size: 23px;
   font-weight: 400;
   padding-bottom: 10px;
 }
-/* line 271, ../sass/screen.scss */
+/* line 272, ../sass/screen.scss */
 .what-we-do .what-we-do-segment-right {
   background: #f9fbfc;
 }
-/* line 273, ../sass/screen.scss */
+/* line 274, ../sass/screen.scss */
 .what-we-do .what-we-do-segment-right .block {
   float: right;
 }
-/* line 276, ../sass/screen.scss */
+/* line 277, ../sass/screen.scss */
 .what-we-do .what-we-do-segment-right .info {
   padding-left: 0;
   padding-right: 80px;
 }
 
-/* line 283, ../sass/screen.scss */
+/* line 284, ../sass/screen.scss */
 .excited {
   padding: 180px 0;
   background-color: #f9fbfc;
   border-top: 1px #ebebeb solid;
 }
-/* line 288, ../sass/screen.scss */
+/* line 289, ../sass/screen.scss */
 .excited .event-1 .event-left {
   background: url(../img/event01-bg.png);
 }
-/* line 293, ../sass/screen.scss */
+/* line 294, ../sass/screen.scss */
 .excited .event-2 .event-left {
   background: url(../img/event02-bg.png);
 }
-/* line 297, ../sass/screen.scss */
+/* line 298, ../sass/screen.scss */
 .excited .event {
-  min-height: 400px;
+  min-height: 350px;
   background: #fff;
   margin-top: 80px;
 }
-/* line 301, ../sass/screen.scss */
+/* line 302, ../sass/screen.scss */
 .excited .event .event-left {
-  height: 400px;
+  height: 350px;
   padding: 0;
   position: relative;
   background-size: cover;
   background-position: 40% 0;
 }
-/* line 307, ../sass/screen.scss */
+/* line 308, ../sass/screen.scss */
 .excited .event .event-left .event-left-inner {
   padding: 0 80px;
   position: absolute;
@@ -338,13 +339,13 @@ a, a:hover {
   top: 50%;
   transform: translateY(-50%);
 }
-/* line 313, ../sass/screen.scss */
+/* line 314, ../sass/screen.scss */
 .excited .event .event-left .event-left-inner h1 {
   font-size: 28px;
   font-weight: 600;
   color: #fff;
 }
-/* line 318, ../sass/screen.scss */
+/* line 319, ../sass/screen.scss */
 .excited .event .event-left .event-left-inner p {
   color: #fff;
   text-transform: uppercase;
@@ -353,12 +354,12 @@ a, a:hover {
   font-weight: 400;
   /*padding-top: 10px;*/
 }
-/* line 328, ../sass/screen.scss */
+/* line 329, ../sass/screen.scss */
 .excited .event .event-right {
-  height: 400px;
+  height: 350px;
   position: relative;
 }
-/* line 331, ../sass/screen.scss */
+/* line 332, ../sass/screen.scss */
 .excited .event .event-right .event-right-inner {
   padding: 0 40px;
   position: absolute;
@@ -366,18 +367,18 @@ a, a:hover {
   top: 50%;
   transform: translateY(-50%);
 }
-/* line 337, ../sass/screen.scss */
+/* line 338, ../sass/screen.scss */
 .excited .event .event-right .event-right-inner p {
   font-size: 20px;
 }
 
-/* line 345, ../sass/screen.scss */
+/* line 346, ../sass/screen.scss */
 .cta {
   background: #fff;
   padding: 140px 0;
   text-align: center;
 }
-/* line 349, ../sass/screen.scss */
+/* line 350, ../sass/screen.scss */
 .cta h1 {
   font-weight: 400;
   color: #777;
