@@ -12,12 +12,9 @@ $body-color: #777;
 $grey-bg: #f9fbfc;
 $grey-line: #ebebeb;
 $section-padding: 140px;
-$block-size: 450px;
+$btn-transition: 0.2s;
 
 
-body{
-	
-}
 
 h1, h2, h3, h4, h5, p, a, ol li{
 	font-family: $main-font;
@@ -26,7 +23,7 @@ h1, h2, h3, h4, h5, p, a, ol li{
 	color: $header-color;
 }
 
-p, ol li{
+p, ol li, h3{
 	color: $body-color;
 	font-size: 17px;
 	letter-spacing: $standard-spacing;
@@ -42,7 +39,7 @@ a, a:hover{
 
 }
 
-.btn, .btn:hover{
+.btn, .btn:hover, .btn:focus{
 	color: #fff;
 	text-transform:uppercase;
 	border-radius: 40px;
@@ -50,6 +47,8 @@ a, a:hover{
 	font-size: 13px;
 	font-weight: 400;
 	letter-spacing: $standard-spacing;
+	box-shadow: none;
+
 }
 
 .card{
@@ -67,15 +66,27 @@ a, a:hover{
 	.navbar-nav li a, .navbar-nav li a:hover{
 		text-align: center;
 		color: #fff;
-
+		border: 2px #fff solid;
+		border-color: transparent;
 		padding: 30px;
 		text-transform: uppercase;
-		font-size: 20px;
-		letter-spacing: $standard-spacing;
+		font-size: 18px;
+		letter-spacing: 2px;
 		font-weight: 600;
+		
+		margin: 0 auto;
+	    -webkit-transition: all $btn-transition ease;
+		-moz-transition: all $btn-transition ease;
+		-o-transition: all $btn-transition ease;
+		transition: all $btn-transition ease;
 	}
 	.navbar-nav li a:hover{
-		opacity: 1;
+	    -webkit-transition: all $btn-transition ease;
+		-moz-transition: all $btn-transition ease;
+		-o-transition: all $btn-transition ease;
+		transition: all $btn-transition ease;
+		/*background: rgba(255,255,255,.1);*/
+		border-color: #fff;
 	}
 	.navbar-brand{
 		padding-top: 34px;
@@ -134,7 +145,7 @@ a, a:hover{
 }
 
 .intro{
-	padding: 120px 0 180px;
+	padding: 100px 0 160px;
 	text-align: center;
 	/*background: url(../img/bg.jpg);*/
 	/*background-size: cover;*/
@@ -177,10 +188,11 @@ a, a:hover{
 }
 
 .header{
-	font-size: 36px;
+	font-size: 34px;
 	letter-spacing: $standard-spacing;
 	text-align: center;
 	margin-top: 0;
+	
 	
 }
 
@@ -194,7 +206,7 @@ a, a:hover{
 
 .what-we-do{
 	padding-top: $section-padding;
-	background: #fff;
+	background: #F9FBFC;
 	border-top: 1px $grey-line solid;
 	.what-we-do-segment{
 		position: relative;
@@ -224,6 +236,7 @@ a, a:hover{
 							color: #fff;
 							font-size: 30px;
 							letter-spacing: 2px;
+							font-weight: 400;
 						}
 					}
 				}
@@ -238,14 +251,20 @@ a, a:hover{
 		    padding-left: 80px;
 			padding-right: 0;
 		    p, ol li{
-				font-size: 18px;
+				font-size: 16px;
 			}
 			ol{
-				padding-top: 20px;
-				padding-bottom: 20px;
+				padding-top: 10px;
+				padding-bottom: 10px;
 			}
 			ol li{
 				padding: 5px 0;
+			}
+			h3{
+				font-size: 23px;
+				font-weight: 400;
+				padding-bottom: 10px;
+
 			}
 		}
 	}
@@ -262,7 +281,7 @@ a, a:hover{
 }
 
 .excited{
-	padding: $section-padding;
+	padding: 180px 0;
 	background-color:$grey-bg;
 	border-top: 1px $grey-line solid; 
 	.event-1{
@@ -321,5 +340,14 @@ a, a:hover{
 			}
 		}
 	}
+}
 
+.cta{
+	background: #fff;
+	padding: $section-padding 0;
+	text-align: center;
+		h1{
+			font-weight: 400;
+			color: $body-color;
+		}
 }
