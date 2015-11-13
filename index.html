@@ -15,20 +15,20 @@
   <link href="stylesheets/animate.min.css" rel="stylesheet" type="text/css">
   <link href="stylesheets/bootstrap.min.css" rel="stylesheet" type="text/css">
   <link href="stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+  <link href="stylesheets/navicon-animation.css" rel="stylesheet" type="text/css" />
   
   
 </head>
 
 <body>
+<section class="bg">
+  </section>
   <nav class="navbar navbar-default">
     <div class="container">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
+       <button class="lines-button x navbar-toggle collapsed" data-toggle="collapse" type="button" role="button" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="lines"></span>
         </button>
         <a class="navbar-brand" href="/"><img srcset="img/logo01-2x.png 2x"></a>
       </div>
@@ -47,6 +47,8 @@
     </div><!-- /.container-fluid -->
   </nav>
 
+  
+
   <section class="intro">
     <div class="container">
       <div class="intro-center col-md-8 col-md-offset-2">
@@ -60,7 +62,7 @@
   <section class="mission">
     <div class="container">
       <div class="col-md-8 col-md-offset-2">
-        <h1>Our mission is to develop a community of high-performing entrepreneurs in New Zealand</h1>
+        <h1>Our mission is to develop a community of high performing entrepreneurs in New Zealand</h1>
         <div class="header-dash"></div>
         <p>We believe that <strong>entrepreneurs are developed, not born.</strong> With that in mind, we set out to find the most effective methods for developing extraordinary entrepreneurs quickly. We offer services to hack mindset development and the startup process so you can build a great business fast.</p>
       </div>
@@ -149,6 +151,34 @@
         <div class="container">
           <h1 class="header">What we're excited about</h1>
           <div class="header-dash"></div>
+          <div class="card event event-1">
+            <div class="col-md-6 event-left">
+              <div class="event-left-inner">
+                <h1>The emergent entrepreneur programme</h1>
+                <p>Launching in november</p>
+              </div>
+            </div>
+            <div class="col-md-6 event-right">
+              <div class="event-right-inner">
+                <p>We're looking for 10 entrepreneurs with big visions for the first intake. </p>
+              </div> 
+            </div>
+          </div>
+
+          <div class="card event event-2">
+            <div class="col-md-6 event-left">
+              <div class="event-left-inner">
+                <h1>Entrepreneurs Unleashed</h1>
+                <p>November 17th</p>
+              </div>
+            </div>
+            <div class="col-md-6 event-right">
+              <div class="event-right-inner">
+                <p>Entrepreneurs Unleashed is just a meetup group at the moment, but I want to make it into a more formal event once we've run it a couple of times and get a decent following.</p>
+              </div> 
+            </div>
+          </div>
+
         </div>
       </section>
 
@@ -158,6 +188,7 @@
       <script src="https://code.jquery.com/jquery.js"></script>
       <script src="js/bootstrap.min.js"></script>
       <script src="js/wow.min.js"></script>
+      <script src="js/main.js"></script>
       <script>
         new WOW().init();
       </script>
