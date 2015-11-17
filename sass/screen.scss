@@ -43,7 +43,7 @@ a, a:hover{
 	color: #fff;
 	text-transform:uppercase;
 	border-radius: 100px;
-	padding: 15px 45px;
+	padding: 16px 45px;
 	font-size: 13px;
 	font-weight: 400;
 	letter-spacing: $standard-spacing;
@@ -155,17 +155,35 @@ a, a:hover{
 		}
 		h1{
 			font-size: 42px;
-			display: inline-block;
-			color: #fff
+			color: #fff;
+			margin-top: 0;
+		}
+
+		h3{
+			text-transform: uppercase;
+			font-size: 20px;
+			line-height: 1;
+			color: #fff;
+		}
+
+		li{
+		  font-size: 42px;
+		  list-style-type: none;
+		  color: #FFFFFF;
+
+		  display: none;
+		  margin-top: -10px;
 		}
 		p{
-			
 			padding: 15px 0 30px;
 			color: #fff;
-			
+
 		}
 		.btn{
 			border: 2px solid #fff;
+			margin-top: 40px;
+			font-weight: 400;
+			letter-spacing: 1px;
 		}
 		.btn:hover{
 			background: #fff;
@@ -206,7 +224,7 @@ a, a:hover{
 
 .what-we-do{
 	padding-top: $section-padding;
-	background: $grey-bg;
+	background: #fff;
 	border-top: 1px $grey-line solid;
 
 	.what-we-do-segment{
@@ -289,7 +307,7 @@ a, a:hover{
 .excited{
 	padding: 180px 0;
 	background-color:$grey-bg;
-	
+	border-top:1px $grey-line solid;
 	.event-1{
 		.event-left{
 			background: url(../img/event01-bg.png);
@@ -362,7 +380,7 @@ a, a:hover{
 			background-color: $primary-color;
 			width: 400px;
 			max-width: 100%;
-			padding: 30px 0;
+			padding: 27px 0;
 			font-size: 16px;
 			margin-top: 30px;
 			font-weight: 600;
@@ -373,7 +391,7 @@ a, a:hover{
 		}
 
 		.btn:hover{
-			background-color: #ee896c;
+			background-color: #ef9077;
 			-webkit-transition: all 0.4s ease;
 			-moz-transition:  all 0.4s ease;
 			-o-transition: all 0.4s ease;
