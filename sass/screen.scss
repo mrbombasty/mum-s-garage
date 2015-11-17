@@ -16,7 +16,7 @@ $btn-transition: 0.2s;
 
 
 
-h1, h2, h3, h4, h5, p, a, ol li{
+h1, h2, h3, h4, h5, p, a, ol li,ul li,li{
 	font-family: $main-font;
 	font-weight: 300;
 	line-height: $standard-line-height;
@@ -361,6 +361,7 @@ a, a:hover{
 		.btn{
 			background-color: $primary-color;
 			width: 400px;
+			max-width: 100%;
 			padding: 30px 0;
 			font-size: 16px;
 			margin-top: 30px;

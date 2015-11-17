@@ -3,7 +3,7 @@
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 /* line 19, ../sass/screen.scss */
-h1, h2, h3, h4, h5, p, a, ol li {
+h1, h2, h3, h4, h5, p, a, ol li, ul li, li {
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
   line-height: 1.5;
@@ -389,6 +389,7 @@ a, a:hover {
 .cta .btn {
   background-color: #e9747b;
   width: 400px;
+  max-width: 100%;
   padding: 30px 0;
   font-size: 16px;
   margin-top: 30px;
@@ -398,7 +399,7 @@ a, a:hover {
   -o-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
-/* line 374, ../sass/screen.scss */
+/* line 375, ../sass/screen.scss */
 .cta .btn:hover {
   background-color: #ee896c;
   -webkit-transition: all 0.4s ease;
@@ -407,7 +408,7 @@ a, a:hover {
   transition: all 0.4s ease;
 }
 
-/* line 383, ../sass/screen.scss */
+/* line 384, ../sass/screen.scss */
 .footer {
   background-color: #4d4658;
   padding: 140px 0;
