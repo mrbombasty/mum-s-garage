@@ -203,6 +203,14 @@ a, a:hover {
   margin-top: 0;
 }
 
+.intro li{
+  font-size: 42px;
+  list-style-type: none;
+  color: #FFFFFF;
+  display: none;
+  margin-top: -30px;
+}
+
 /* line 199, ../sass/screen.scss */
 .header-dash {
   height: 5px;
