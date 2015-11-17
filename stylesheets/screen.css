@@ -24,7 +24,7 @@ strong {
 
 /* line 36, ../sass/screen.scss */
 a, a:hover {
-  color: #e9747b;
+  color: #f4787f;
   font-weight: 400;
 }
 
@@ -227,7 +227,7 @@ a, a:hover {
   width: 50px;
   margin: 0 auto;
   margin-bottom: 40px;
-  background: #e9747b;
+  background: #f4787f;
 }
 
 /* line 225, ../sass/screen.scss */
@@ -262,16 +262,17 @@ a, a:hover {
 /* line 248, ../sass/screen.scss */
 .what-we-do .what-we-do-segment .block .block-inner .block-inner-inner {
   display: table;
+  background: rgba(0, 0, 0, 0.4);
   width: 100%;
   height: 100%;
 }
-/* line 252, ../sass/screen.scss */
+/* line 253, ../sass/screen.scss */
 .what-we-do .what-we-do-segment .block .block-inner .block-inner-inner .block-inner-inner-inner {
   display: table-cell;
   vertical-align: middle;
   text-align: center;
 }
-/* line 256, ../sass/screen.scss */
+/* line 257, ../sass/screen.scss */
 .what-we-do .what-we-do-segment .block .block-inner .block-inner-inner .block-inner-inner-inner h1 {
   text-align: center;
   color: #fff;
@@ -279,7 +280,7 @@ a, a:hover {
   letter-spacing: 2px;
   font-weight: 400;
 }
-/* line 268, ../sass/screen.scss */
+/* line 269, ../sass/screen.scss */
 .what-we-do .what-we-do-segment .info {
   position: absolute;
   left: 0;
@@ -288,61 +289,61 @@ a, a:hover {
   padding-left: 80px;
   padding-right: 0;
 }
-/* line 275, ../sass/screen.scss */
+/* line 276, ../sass/screen.scss */
 .what-we-do .what-we-do-segment .info p, .what-we-do .what-we-do-segment .info ol li {
   font-size: 16px;
 }
-/* line 278, ../sass/screen.scss */
+/* line 279, ../sass/screen.scss */
 .what-we-do .what-we-do-segment .info ol {
   padding-top: 10px;
   padding-bottom: 10px;
 }
-/* line 282, ../sass/screen.scss */
+/* line 283, ../sass/screen.scss */
 .what-we-do .what-we-do-segment .info ol li {
   padding: 5px 0;
 }
-/* line 285, ../sass/screen.scss */
+/* line 286, ../sass/screen.scss */
 .what-we-do .what-we-do-segment .info h3 {
   font-size: 23px;
   font-weight: 400;
   padding-bottom: 10px;
 }
-/* line 293, ../sass/screen.scss */
+/* line 294, ../sass/screen.scss */
 .what-we-do .what-we-do-segment-right {
   background: #f9fbfc;
   z-index: 1;
 }
-/* line 297, ../sass/screen.scss */
+/* line 298, ../sass/screen.scss */
 .what-we-do .what-we-do-segment-right .block {
   float: right;
 }
-/* line 300, ../sass/screen.scss */
+/* line 301, ../sass/screen.scss */
 .what-we-do .what-we-do-segment-right .info {
   padding-left: 0;
   padding-right: 80px;
 }
 
-/* line 307, ../sass/screen.scss */
+/* line 308, ../sass/screen.scss */
 .excited {
   padding: 180px 0;
   background-color: #f9fbfc;
   border-top: 1px #ebebeb solid;
 }
-/* line 312, ../sass/screen.scss */
+/* line 313, ../sass/screen.scss */
 .excited .event-1 .event-left {
   background: url(../img/event01-bg.png);
 }
-/* line 317, ../sass/screen.scss */
+/* line 318, ../sass/screen.scss */
 .excited .event-2 .event-left {
   background: url(../img/event02-bg.png);
 }
-/* line 321, ../sass/screen.scss */
+/* line 322, ../sass/screen.scss */
 .excited .event {
   min-height: 350px;
   background: #fff;
   margin-top: 80px;
 }
-/* line 325, ../sass/screen.scss */
+/* line 326, ../sass/screen.scss */
 .excited .event .event-left {
   height: 350px;
   padding: 0;
@@ -350,7 +351,7 @@ a, a:hover {
   background-size: cover;
   background-position: 40% 0;
 }
-/* line 331, ../sass/screen.scss */
+/* line 332, ../sass/screen.scss */
 .excited .event .event-left .event-left-inner {
   padding: 0 80px;
   position: absolute;
@@ -358,13 +359,13 @@ a, a:hover {
   top: 50%;
   transform: translateY(-50%);
 }
-/* line 337, ../sass/screen.scss */
+/* line 338, ../sass/screen.scss */
 .excited .event .event-left .event-left-inner h1 {
   font-size: 28px;
   font-weight: 600;
   color: #fff;
 }
-/* line 342, ../sass/screen.scss */
+/* line 343, ../sass/screen.scss */
 .excited .event .event-left .event-left-inner p {
   color: #fff;
   text-transform: uppercase;
@@ -373,12 +374,12 @@ a, a:hover {
   font-weight: 400;
   /*padding-top: 10px;*/
 }
-/* line 352, ../sass/screen.scss */
+/* line 353, ../sass/screen.scss */
 .excited .event .event-right {
   height: 350px;
   position: relative;
 }
-/* line 355, ../sass/screen.scss */
+/* line 356, ../sass/screen.scss */
 .excited .event .event-right .event-right-inner {
   padding: 0 40px;
   position: absolute;
@@ -386,27 +387,27 @@ a, a:hover {
   top: 50%;
   transform: translateY(-50%);
 }
-/* line 361, ../sass/screen.scss */
+/* line 362, ../sass/screen.scss */
 .excited .event .event-right .event-right-inner p {
   font-size: 20px;
 }
 
-/* line 369, ../sass/screen.scss */
+/* line 370, ../sass/screen.scss */
 .cta {
   background: #fff;
   padding: 140px 0;
   text-align: center;
   border-top: 1px #ebebeb solid;
 }
-/* line 374, ../sass/screen.scss */
+/* line 375, ../sass/screen.scss */
 .cta h1 {
   font-weight: 400;
   color: #777;
   font-size: 32px;
 }
-/* line 379, ../sass/screen.scss */
+/* line 380, ../sass/screen.scss */
 .cta .btn {
-  background-color: #e9747b;
+  background-color: #f4787f;
   width: 400px;
   max-width: 100%;
   padding: 27px 0;
@@ -418,17 +419,17 @@ a, a:hover {
   -o-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
-/* line 393, ../sass/screen.scss */
+/* line 394, ../sass/screen.scss */
 .cta .btn:hover {
-  background-color: #ef9077;
+  background-color: #f4787f;
   -webkit-transition: all 0.4s ease;
   -moz-transition: all 0.4s ease;
   -o-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 
-/* line 402, ../sass/screen.scss */
+/* line 403, ../sass/screen.scss */
 .footer {
-  background-color: #4d4658;
+  background-color: #372c4e;
   padding: 140px 0;
 }
