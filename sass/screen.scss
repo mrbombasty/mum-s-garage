@@ -42,7 +42,7 @@ a, a:hover{
 .btn, .btn:hover, .btn:focus{
 	color: #fff;
 	text-transform:uppercase;
-	border-radius: 40px;
+	border-radius: 100px;
 	padding: 15px 45px;
 	font-size: 13px;
 	font-weight: 400;
@@ -53,7 +53,7 @@ a, a:hover{
 
 .card{
 	
-	box-shadow: 0px 6px 15.6px 1.2px rgba(0, 0, 0, 0.07);
+	box-shadow: 0px 0px 25.6px 1.2px rgba(0, 0, 0, 0.07);
 	/*box-shadow: 0px 10px 30.14px 4px rgba(0, 0, 0, 0.1)*/
 }
 
@@ -70,7 +70,7 @@ a, a:hover{
 		border-color: transparent;
 		padding: 30px;
 		text-transform: uppercase;
-		font-size: 18px;
+		font-size: 14px;
 		letter-spacing: 2px;
 		font-weight: 600;
 		
@@ -86,7 +86,7 @@ a, a:hover{
 		-o-transition: all $btn-transition ease;
 		transition: all $btn-transition ease;
 		/*background: rgba(255,255,255,.1);*/
-		border-color: #fff;
+		
 	}
 	.navbar-brand{
 		padding-top: 34px;
@@ -206,14 +206,17 @@ a, a:hover{
 
 .what-we-do{
 	padding-top: $section-padding;
-	background: #Fff;
+	background: $grey-bg;
 	border-top: 1px $grey-line solid;
+
 	.what-we-do-segment{
 		position: relative;
 		background-color: #fff;
+		z-index: 2;
 		
 		.block{
 			padding: 0;
+
 			/*box-shadow: 0px 10px 60.14px 4px rgba(0, 0, 0, 0.25); */
 			.block-img{
 				width: 100%;
@@ -271,6 +274,8 @@ a, a:hover{
 	}
 	.what-we-do-segment-right {
 		background: $grey-bg;
+		
+		z-index: 1;
 		.block{
 			float: right
 		}
@@ -284,7 +289,7 @@ a, a:hover{
 .excited{
 	padding: 180px 0;
 	background-color:$grey-bg;
-	border-top: 1px $grey-line solid; 
+	
 	.event-1{
 		.event-left{
 			background: url(../img/event01-bg.png);
@@ -347,8 +352,35 @@ a, a:hover{
 	background: #fff;
 	padding: $section-padding 0;
 	text-align: center;
+	border-top: 1px $grey-line solid;
 		h1{
 			font-weight: 400;
 			color: $body-color;
+			font-size: 32px;
 		}
+		.btn{
+			background-color: $primary-color;
+			width: 400px;
+			padding: 30px 0;
+			font-size: 16px;
+			margin-top: 30px;
+			font-weight: 600;
+			-webkit-transition: all 0.4s ease;
+			-moz-transition:  all 0.4s ease;
+			-o-transition: all 0.4s ease;
+			transition: all 0.4s ease;
+		}
+
+		.btn:hover{
+			background-color: #ee896c;
+			-webkit-transition: all 0.4s ease;
+			-moz-transition:  all 0.4s ease;
+			-o-transition: all 0.4s ease;
+			transition: all 0.4s ease;
+		}
+}
+
+.footer{
+	background-color: #4d4658;
+	padding: $section-padding 0;
 }
