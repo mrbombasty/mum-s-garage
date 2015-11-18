@@ -1,13 +1,13 @@
 /* Welcome to Compass.
- * In this file you should write your main styles. (or centralize your imports)
- * Import this file using the following HTML or equivalent:
- * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+* In this file you should write your main styles. (or centralize your imports)
+* Import this file using the following HTML or equivalent:
+* <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
 $primary-color: #f4787f;
 $main-font: 'Open Sans', sans-serif;
 $standard-spacing: .5px;
 $standard-line-height: 1.5;
-$header-color: #555;
+$header-color: #777;
 $body-color: #777;
 $grey-bg: #f9fbfc;
 $grey-line: #ebebeb;
@@ -51,15 +51,19 @@ a, a:hover{
 
 }
 
+.btn-small,.btn-small:hover, .btn-small:focus{
+	padding: 12px 30px;
+}
+
 .card{
-	
+
 	box-shadow: 0px 0px 25.6px 1.2px rgba(0, 0, 0, 0.07);
 	/*box-shadow: 0px 10px 30.14px 4px rgba(0, 0, 0, 0.1)*/
 }
 
 
 .navbar{
-	
+
 	width: 100%;
 	background: none;
 	border:none;
@@ -73,58 +77,58 @@ a, a:hover{
 		font-size: 14px;
 		letter-spacing: 2px;
 		font-weight: 600;
-		
+
 		margin: 0 auto;
-	    -webkit-transition: all $btn-transition ease;
+		-webkit-transition: all $btn-transition ease;
 		-moz-transition: all $btn-transition ease;
 		-o-transition: all $btn-transition ease;
 		transition: all $btn-transition ease;
 	}
 	.navbar-nav li a:hover{
-	    -webkit-transition: all $btn-transition ease;
+		-webkit-transition: all $btn-transition ease;
 		-moz-transition: all $btn-transition ease;
 		-o-transition: all $btn-transition ease;
 		transition: all $btn-transition ease;
 		/*background: rgba(255,255,255,.1);*/
-		
+
 	}
 	.navbar-brand{
 		padding-top: 34px;
 		height: auto;
 		margin: 0;
 	}
-	
+
 }
 
 .navbar-header {
-    float: none;
+	float: none;
 }
 .navbar-toggle {
-    display: block;
-    padding: 0;
-    margin-top: 28px;
+	display: block;
+	padding: 0;
+	margin-top: 28px;
 }
 .navbar-default .navbar-collapse {
 	border: none;
 }
 .navbar-collapse.collapse {
-    display: none!important;
+	display: none!important;
 }
 .navbar-nav {
-    float: none!important;
-    margin: 7.5px -15px;
+	float: none!important;
+	margin: 7.5px -15px;
 }
 .navbar-nav>li {
-    float: none;
+	float: none;
 }
 .navbar-nav>li>a {
-    padding-top: 10px;
-    padding-bottom: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 .navbar-collapse.collapse.in {
 	display: block !important; 
 	border: none;
-    }
+}
 
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
 	background: none;
@@ -167,12 +171,12 @@ a, a:hover{
 		}
 
 		li{
-		  font-size: 42px;
-		  list-style-type: none;
-		  color: #FFFFFF;
+			font-size: 42px;
+			list-style-type: none;
+			color: #FFFFFF;
 
-		  display: none;
-		  margin-top: -10px;
+			display: none;
+			margin-top: -10px;
 		}
 		p{
 			padding: 15px 0 30px;
@@ -189,7 +193,7 @@ a, a:hover{
 			background: #fff;
 			color: #e9747b;
 		}
-		
+
 	}
 }
 
@@ -201,7 +205,7 @@ a, a:hover{
 		font-size: 26px;
 		letter-spacing: $standard-spacing;
 		margin-bottom: 20px;
-		font-weight: 400;
+		font-weight: 600;
 	}
 }
 
@@ -210,8 +214,9 @@ a, a:hover{
 	letter-spacing: $standard-spacing;
 	text-align: center;
 	margin-top: 0;
-	
-	
+	font-weight: 400;
+
+
 }
 
 .header-dash{
@@ -231,7 +236,7 @@ a, a:hover{
 		position: relative;
 		background-color: #fff;
 		z-index: 2;
-		
+
 		.block{
 			padding: 0;
 
@@ -268,17 +273,16 @@ a, a:hover{
 
 		.info{
 			position: absolute;
-		    left: 0;
-		    top: 50%;
-		    transform: translateY(-50%);
-		    padding-left: 80px;
+			left: 0;
+			top: 50%;
+			transform: translateY(-50%);
+			padding-left: 80px;
 			padding-right: 0;
-		    p, ol li{
+			p, ol li{
 				font-size: 16px;
 			}
 			ol{
-				padding-top: 10px;
-				padding-bottom: 10px;
+
 			}
 			ol li{
 				padding: 5px 0;
@@ -293,14 +297,14 @@ a, a:hover{
 	}
 	.what-we-do-segment-right {
 		background: $grey-bg;
-		
+
 		z-index: 1;
 		.block{
 			float: right
 		}
 		.info{
-				padding-left: 0;
-				padding-right: 80px;
+			padding-left: 0;
+			padding-right: 80px;
 		}
 	}
 }
@@ -320,11 +324,10 @@ a, a:hover{
 		}
 	}
 	.event{
-		min-height: 350px;
-		background: #fff;
-		margin-top: 80px;
+		text-align: center;
 		.event-left{
-			height: 350px;
+			height: 300px;
+			margin-top: 80px;
 			padding: 0;
 			position: relative;
 			background-size: cover;
@@ -348,17 +351,22 @@ a, a:hover{
 					font-weight: 400;
 					/*padding-top: 10px;*/
 				}
+				.btn-small{
+					background-color: #fff;
+					color: $primary-color;
+					margin-top: 10px;
+				}
+				.btn-small:hover{
+					background-color: #f8f8f8;
+				}
 			}
 		}
 		.event-right{
-			height: 350px;
+
 			position: relative;
+			background: #fff;
 			.event-right-inner{
-				padding: 0 40px;
-				position: absolute;
-				left: 0;
-				top: 50%;
-				transform: translateY(-50%);
+				padding: 80px 20px;
 				p{
 					font-size: 20px;
 				}
@@ -368,39 +376,52 @@ a, a:hover{
 }
 
 .cta{
-	background: #fff;
+	background: $primary-color;
 	padding: $section-padding 0;
 	text-align: center;
 	border-top: 1px $grey-line solid;
-		h1{
-			font-weight: 400;
-			color: $body-color;
-			font-size: 32px;
-		}
-		.btn{
-			background-color: $primary-color;
-			width: 400px;
-			max-width: 100%;
-			padding: 27px 0;
-			font-size: 16px;
-			margin-top: 30px;
-			font-weight: 600;
-			-webkit-transition: all 0.4s ease;
-			-moz-transition:  all 0.4s ease;
-			-o-transition: all 0.4s ease;
-			transition: all 0.4s ease;
-		}
+	h1{
+		font-weight: 400;
+		color: #fff;
+		font-size: 32px;
+	}
+	.btn{
+		background-color: #fff;
+		width: 400px;
+		max-width: 100%;
+		padding: 27px 0;
+		font-size: 16px;
+		margin-top: 30px;
+		font-weight: 600;
+		color: $primary-color;
+		-webkit-transition: all 0.4s ease;
+		-moz-transition:  all 0.4s ease;
+		-o-transition: all 0.4s ease;
+		transition: all 0.4s ease;
+	}
 
-		.btn:hover{
-			background-color: #f4787f;
-			-webkit-transition: all 0.4s ease;
-			-moz-transition:  all 0.4s ease;
-			-o-transition: all 0.4s ease;
-			transition: all 0.4s ease;
-		}
+	.btn:hover{
+		background-color: #f8f8f8;
+		-webkit-transition: all 0.4s ease;
+		-moz-transition:  all 0.4s ease;
+		-o-transition: all 0.4s ease;
+		transition: all 0.4s ease;
+	}
 }
 
 .footer{
-	background-color: #372c4e;
+	background-color: #383343;
 	padding: $section-padding 0;
+}
+
+@media (max-width: 1170px){
+	.what-we-do{
+		.what-we-do-segment{
+			.info{
+				h3{
+					font-size: 18px;
+				}
+			}
+		}
+	}
 }
