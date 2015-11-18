@@ -425,9 +425,9 @@ a, a:hover {
 /* line 397, ../sass/screen.scss */
 .cta .btn {
   background-color: #fff;
-  width: 400px;
+  width: 300px;
   max-width: 100%;
-  padding: 27px 0;
+  padding: 22px 0;
   font-size: 16px;
   margin-top: 30px;
   font-weight: 600;
@@ -448,7 +448,7 @@ a, a:hover {
 
 /* line 421, ../sass/screen.scss */
 .footer {
-  background-color: #383343;
+  background-color: #f9fbfc;
   padding: 140px 0;
 }
 
@@ -456,5 +456,9 @@ a, a:hover {
   /* line 430, ../sass/screen.scss */
   .what-we-do .what-we-do-segment .info h3 {
     font-size: 18px;
+  }
+  /* line 433, ../sass/screen.scss */
+  .what-we-do .what-we-do-segment .info p, .what-we-do .what-we-do-segment .info ol li {
+    font-size: 14px;
   }
 }
