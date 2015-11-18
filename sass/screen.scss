@@ -238,7 +238,7 @@ a, a:hover{
 		z-index: 2;
 
 		.block{
-			padding: 0;
+			padding: 40px;
 
 			/*box-shadow: 0px 10px 60.14px 4px rgba(0, 0, 0, 0.25); */
 			.block-img{
@@ -248,11 +248,14 @@ a, a:hover{
 			.block-inner{
 				position: absolute;
 				top: 0;
-				width: 100%;
-				height: 100%;
+			    width: 90%;
+			    margin-top: 25%;
+			    margin-left: 40px;
+			    height: 50%;
+			    /*box-shadow: 0px 10px 60.14px 4px rgba(0, 0, 0, 0.25); */
 				.block-inner-inner{
 					display: table;
-					background: rgba(0,0,0,.4);
+					background: rgba(244, 120, 127,.9);
 					width: 100%;
 					height: 100%;
 					.block-inner-inner-inner{
@@ -262,8 +265,8 @@ a, a:hover{
 						h1{
 							text-align: center;
 							color: #fff;
-							font-size: 30px;
-							letter-spacing: 2px;
+							font-size: 24px;
+							letter-spacing: 1.5px;
 							font-weight: 400;
 						}
 					}
@@ -300,7 +303,10 @@ a, a:hover{
 
 		z-index: 1;
 		.block{
-			float: right
+			float: right;
+			.block-inner{
+				margin-left:-70px;
+			}
 		}
 		.info{
 			padding-left: 0;
@@ -310,9 +316,12 @@ a, a:hover{
 }
 
 .excited{
-	padding: 180px 0;
+	padding: 140px 0;
 	background-color:$grey-bg;
 	border-top:1px $grey-line solid;
+	.header-dash{
+		margin-bottom: 0;
+	}
 	.event-1{
 		.event-left{
 			background: url(../img/event01-bg.png);

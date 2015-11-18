@@ -250,7 +250,7 @@ a, a:hover {
 }
 /* line 240, ../sass/screen.scss */
 .what-we-do .what-we-do-segment .block {
-  padding: 0;
+  padding: 40px;
   /*box-shadow: 0px 10px 60.14px 4px rgba(0, 0, 0, 0.25); */
 }
 /* line 244, ../sass/screen.scss */
@@ -262,31 +262,34 @@ a, a:hover {
 .what-we-do .what-we-do-segment .block .block-inner {
   position: absolute;
   top: 0;
-  width: 100%;
-  height: 100%;
+  width: 90%;
+  margin-top: 25%;
+  margin-left: 40px;
+  height: 50%;
+  /*box-shadow: 0px 10px 60.14px 4px rgba(0, 0, 0, 0.25); */
 }
-/* line 253, ../sass/screen.scss */
+/* line 256, ../sass/screen.scss */
 .what-we-do .what-we-do-segment .block .block-inner .block-inner-inner {
   display: table;
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(244, 120, 127, 0.9);
   width: 100%;
   height: 100%;
 }
-/* line 258, ../sass/screen.scss */
+/* line 261, ../sass/screen.scss */
 .what-we-do .what-we-do-segment .block .block-inner .block-inner-inner .block-inner-inner-inner {
   display: table-cell;
   vertical-align: middle;
   text-align: center;
 }
-/* line 262, ../sass/screen.scss */
+/* line 265, ../sass/screen.scss */
 .what-we-do .what-we-do-segment .block .block-inner .block-inner-inner .block-inner-inner-inner h1 {
   text-align: center;
   color: #fff;
-  font-size: 30px;
-  letter-spacing: 2px;
+  font-size: 24px;
+  letter-spacing: 1.5px;
   font-weight: 400;
 }
-/* line 274, ../sass/screen.scss */
+/* line 277, ../sass/screen.scss */
 .what-we-do .what-we-do-segment .info {
   position: absolute;
   left: 0;
@@ -295,54 +298,62 @@ a, a:hover {
   padding-left: 80px;
   padding-right: 0;
 }
-/* line 281, ../sass/screen.scss */
+/* line 284, ../sass/screen.scss */
 .what-we-do .what-we-do-segment .info p, .what-we-do .what-we-do-segment .info ol li {
   font-size: 16px;
 }
-/* line 287, ../sass/screen.scss */
+/* line 290, ../sass/screen.scss */
 .what-we-do .what-we-do-segment .info ol li {
   padding: 5px 0;
 }
-/* line 290, ../sass/screen.scss */
+/* line 293, ../sass/screen.scss */
 .what-we-do .what-we-do-segment .info h3 {
   font-size: 23px;
   font-weight: 400;
   padding-bottom: 10px;
 }
-/* line 298, ../sass/screen.scss */
+/* line 301, ../sass/screen.scss */
 .what-we-do .what-we-do-segment-right {
   background: #f9fbfc;
   z-index: 1;
 }
-/* line 302, ../sass/screen.scss */
+/* line 305, ../sass/screen.scss */
 .what-we-do .what-we-do-segment-right .block {
   float: right;
 }
-/* line 305, ../sass/screen.scss */
+/* line 307, ../sass/screen.scss */
+.what-we-do .what-we-do-segment-right .block .block-inner {
+  margin-left: -70px;
+}
+/* line 311, ../sass/screen.scss */
 .what-we-do .what-we-do-segment-right .info {
   padding-left: 0;
   padding-right: 80px;
 }
 
-/* line 312, ../sass/screen.scss */
+/* line 318, ../sass/screen.scss */
 .excited {
-  padding: 180px 0;
+  padding: 140px 0;
   background-color: #f9fbfc;
   border-top: 1px #ebebeb solid;
 }
-/* line 317, ../sass/screen.scss */
+/* line 322, ../sass/screen.scss */
+.excited .header-dash {
+  margin-bottom: 0;
+}
+/* line 326, ../sass/screen.scss */
 .excited .event-1 .event-left {
   background: url(../img/event01-bg.png);
 }
-/* line 322, ../sass/screen.scss */
+/* line 331, ../sass/screen.scss */
 .excited .event-2 .event-left {
   background: url(../img/event02-bg.png);
 }
-/* line 326, ../sass/screen.scss */
+/* line 335, ../sass/screen.scss */
 .excited .event {
   text-align: center;
 }
-/* line 328, ../sass/screen.scss */
+/* line 337, ../sass/screen.scss */
 .excited .event .event-left {
   height: 300px;
   margin-top: 80px;
@@ -351,7 +362,7 @@ a, a:hover {
   background-size: cover;
   background-position: 40% 0;
 }
-/* line 335, ../sass/screen.scss */
+/* line 344, ../sass/screen.scss */
 .excited .event .event-left .event-left-inner {
   padding: 0 80px;
   position: absolute;
@@ -359,13 +370,13 @@ a, a:hover {
   top: 50%;
   transform: translateY(-50%);
 }
-/* line 341, ../sass/screen.scss */
+/* line 350, ../sass/screen.scss */
 .excited .event .event-left .event-left-inner h1 {
   font-size: 28px;
   font-weight: 600;
   color: #fff;
 }
-/* line 346, ../sass/screen.scss */
+/* line 355, ../sass/screen.scss */
 .excited .event .event-left .event-left-inner p {
   color: #fff;
   text-transform: uppercase;
@@ -374,44 +385,44 @@ a, a:hover {
   font-weight: 400;
   /*padding-top: 10px;*/
 }
-/* line 354, ../sass/screen.scss */
+/* line 363, ../sass/screen.scss */
 .excited .event .event-left .event-left-inner .btn-small {
   background-color: #fff;
   color: #f4787f;
   margin-top: 10px;
 }
-/* line 359, ../sass/screen.scss */
+/* line 368, ../sass/screen.scss */
 .excited .event .event-left .event-left-inner .btn-small:hover {
   background-color: #f8f8f8;
 }
-/* line 364, ../sass/screen.scss */
+/* line 373, ../sass/screen.scss */
 .excited .event .event-right {
   position: relative;
   background: #fff;
 }
-/* line 368, ../sass/screen.scss */
+/* line 377, ../sass/screen.scss */
 .excited .event .event-right .event-right-inner {
   padding: 80px 20px;
 }
-/* line 370, ../sass/screen.scss */
+/* line 379, ../sass/screen.scss */
 .excited .event .event-right .event-right-inner p {
   font-size: 20px;
 }
 
-/* line 378, ../sass/screen.scss */
+/* line 387, ../sass/screen.scss */
 .cta {
   background: #f4787f;
   padding: 140px 0;
   text-align: center;
   border-top: 1px #ebebeb solid;
 }
-/* line 383, ../sass/screen.scss */
+/* line 392, ../sass/screen.scss */
 .cta h1 {
   font-weight: 400;
   color: #fff;
   font-size: 32px;
 }
-/* line 388, ../sass/screen.scss */
+/* line 397, ../sass/screen.scss */
 .cta .btn {
   background-color: #fff;
   width: 400px;
@@ -426,7 +437,7 @@ a, a:hover {
   -o-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
-/* line 403, ../sass/screen.scss */
+/* line 412, ../sass/screen.scss */
 .cta .btn:hover {
   background-color: #f8f8f8;
   -webkit-transition: all 0.4s ease;
@@ -435,14 +446,14 @@ a, a:hover {
   transition: all 0.4s ease;
 }
 
-/* line 412, ../sass/screen.scss */
+/* line 421, ../sass/screen.scss */
 .footer {
   background-color: #383343;
   padding: 140px 0;
 }
 
 @media (max-width: 1170px) {
-  /* line 421, ../sass/screen.scss */
+  /* line 430, ../sass/screen.scss */
   .what-we-do .what-we-do-segment .info h3 {
     font-size: 18px;
   }
