@@ -10,6 +10,7 @@ $standard-line-height: 1.5;
 $header-color: #777;
 $body-color: #777;
 $grey-bg: #f9fbfc;
+$dark-bg: #564960;
 $grey-line: #ebebeb;
 $section-padding: 140px;
 $btn-transition: 0.2s;
@@ -223,7 +224,7 @@ a, a:hover{
 	height: 5px;
 	width: 50px;
 	margin: 0 auto;
-	margin-bottom: 40px;
+	margin-bottom: 20px;
 	background: $primary-color
 }
 
@@ -240,18 +241,19 @@ a, a:hover{
 		.block{
 			padding: 40px;
 
-			/*box-shadow: 0px 10px 60.14px 4px rgba(0, 0, 0, 0.25); */
+			
 			.block-img{
 				width: 100%;
 				height: 100%;
+				box-shadow: 0px 10px 60.14px 4px rgba(0, 0, 0, 0.25); 
 			}
 			.block-inner{
 				position: absolute;
-				top: 0;
-			    width: 90%;
-			    margin-top: 25%;
+			    top: 0;
+			    width: 85%;
+			    margin-top: 15%;
 			    margin-left: 40px;
-			    height: 50%;
+			    height: 70%;
 			    /*box-shadow: 0px 10px 60.14px 4px rgba(0, 0, 0, 0.25); */
 				.block-inner-inner{
 					display: table;
@@ -305,7 +307,7 @@ a, a:hover{
 		.block{
 			float: right;
 			.block-inner{
-				margin-left:-70px;
+				margin-left:-45px;
 			}
 		}
 		.info{
@@ -419,7 +421,7 @@ a, a:hover{
 }
 
 .footer{
-	background-color: $grey-bg;
+	background-color: $dark-bg;
 	padding: $section-padding 0;
 }
 
