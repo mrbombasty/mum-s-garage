@@ -167,7 +167,7 @@ a, a:hover {
 }
 /* line 161, ../sass/screen.scss */
 .intro .intro-center h1 {
-  font-size: 42px;
+  font-size: 40px;
   color: #fff;
   margin-top: 0;
 }
@@ -448,7 +448,7 @@ a, a:hover {
 
 /* line 423, ../sass/screen.scss */
 .footer {
-  background-color: #564960;
+  background-color: #51415E;
   padding: 140px 0;
 }
 
