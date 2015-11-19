@@ -203,7 +203,7 @@ a, a:hover{
 	text-align: center;
 	background: #fff;
 	h1{
-		font-size: 26px;
+		font-size: 23px;
 		letter-spacing: $standard-spacing;
 		margin-bottom: 20px;
 		font-weight: 600;
@@ -387,7 +387,7 @@ a, a:hover{
 }
 
 .cta{
-	background: $primary-color;
+	/*background: $primary-color;*/
 	padding: $section-padding 0;
 	text-align: center;
 	border-top: 1px $grey-line solid;
