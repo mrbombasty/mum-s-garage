@@ -24,7 +24,7 @@ h1, h2, h3, h4, h5, p, a, ol li,ul li,li{
 	color: $header-color;
 }
 
-p, ol li, h3{
+p, ol li, h3,input, textarea{
 	color: $body-color;
 	font-size: 17px;
 	letter-spacing: $standard-spacing;
@@ -56,6 +56,41 @@ a, a:hover{
 	padding: 12px 30px;
 }
 
+form{
+	margin-bottom: 80px;
+}
+
+input, textarea{
+	width: 100%;
+	padding: 20px 0;
+	border:1px #ddd solid;
+	border-radius: 4px;
+	padding-left: 20px;
+	margin-top: 20px;
+	font-family: $main-font;
+}
+
+
+textarea{
+	height: 150px;
+	padding: 20px;
+	resize: none;
+	font-family: $main-font;
+}
+
+
+html input[type="button"], input[type="reset"], input[type="submit"], html input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover{
+	color: #fff;
+	border: none;
+	background-color: $primary-color;
+	padding: 25px 0;
+	font-weight: 500;
+	margin-top: 30px;
+	border-radius: 4px;
+	font-family: $main-font;
+}
+
+
 .card{
 
 	box-shadow: 0px 0px 25.6px 1.2px rgba(0, 0, 0, 0.07);
@@ -68,6 +103,9 @@ a, a:hover{
 	width: 100%;
 	background: none;
 	border:none;
+	margin-bottom: 0;
+	padding-bottom: 20px;
+	border-radius: 0;
 	.navbar-nav li a, .navbar-nav li a:hover{
 		text-align: center;
 		color: #fff;
@@ -424,6 +462,25 @@ a, a:hover{
 	background-color: $dark-bg;
 	padding: $section-padding 0;
 }
+
+.info-page{
+	.navbar{
+		background-color: $primary-color;
+	}
+}
+
+.contact{
+	padding: $section-padding 0;
+	background: #fff;
+	.header{
+		font-size: 24px;
+		margin-bottom: 20px;
+	}
+	form .btn{
+		font-size: 15px;
+	}
+}
+
 
 @media (max-width: 1170px){
 	.what-we-do{
