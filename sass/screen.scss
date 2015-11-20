@@ -3,7 +3,8 @@
 * Import this file using the following HTML or equivalent:
 * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
-$primary-color: #f4787f;
+/*$primary-color: #f4787f;*/
+$primary-color: #F48F78;
 $main-font: 'Open Sans', sans-serif;
 $standard-spacing: .5px;
 $standard-line-height: 1.5;
@@ -67,6 +68,7 @@ input, textarea{
 	border-radius: 4px;
 	padding-left: 20px;
 	margin-top: 20px;
+	font-size: 16px;
 	font-family: $main-font;
 }
 
@@ -79,7 +81,7 @@ textarea{
 }
 
 
-html input[type="button"], input[type="reset"], input[type="submit"], html input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover{
+html input[type="button"], input[type="reset"], input[type="submit"], html input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover, html input[type="button"]:focus, input[type="reset"]:focus, input[type="submit"]:focus{
 	color: #fff;
 	border: none;
 	background-color: $primary-color;
@@ -460,7 +462,17 @@ html input[type="button"], input[type="reset"], input[type="submit"], html input
 
 .footer{
 	background-color: $dark-bg;
-	padding: $section-padding 0;
+	padding: 80px 0;
+	.social-container{
+		text-align: center;
+	}
+	.social{
+		padding: 0 10px;
+		opacity: .8;
+	}
+	.social:hover{
+		opacity: 1;
+	}
 }
 
 .info-page{
@@ -469,15 +481,29 @@ html input[type="button"], input[type="reset"], input[type="submit"], html input
 	}
 }
 
-.contact{
-	padding: $section-padding 0;
-	background: #fff;
-	.header{
-		font-size: 24px;
-		margin-bottom: 20px;
+.contact-page{
+	.bg{
+		background: url(../img/thumbs-up.jpg);
+		background-size: cover;
+		top: -20%; 
 	}
-	form .btn{
-		font-size: 15px;
+	.contact{
+		.content{
+			padding: 80px 0 $section-padding;
+			background: #fff;
+			form .btn{
+				font-size: 14px;
+		}
+		}	
+		.banner{
+			padding: 150px 0;
+			background: rgba(0,0,0,.5);
+			.header{
+			color: #fff;
+			}
+		}
+		
+
 	}
 }
 
@@ -493,6 +519,14 @@ html input[type="button"], input[type="reset"], input[type="submit"], html input
 					font-size: 14px;
 				}
 			}
+		}
+	}
+}
+
+@media (max-width: 768px){
+	.contact{
+		.header{
+			font-size: 28px;
 		}
 	}
 }
