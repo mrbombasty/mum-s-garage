@@ -326,7 +326,7 @@ html input[type="button"], input[type="reset"], input[type="submit"], html input
 .what-we-do .what-we-do-segment .block .block-inner .block-inner-inner .block-inner-inner-inner h1 {
   text-align: center;
   color: #fff;
-  font-size: 24px;
+  font-size: 22px;
   letter-spacing: 1.5px;
   font-weight: 400;
 }
@@ -409,15 +409,16 @@ html input[type="button"], input[type="reset"], input[type="submit"], html input
   position: absolute;
   left: 0;
   top: 50%;
+  width: 100%;
   transform: translateY(-50%);
 }
-/* line 392, ../sass/screen.scss */
+/* line 393, ../sass/screen.scss */
 .excited .event .event-left .event-left-inner h1 {
   font-size: 28px;
   font-weight: 600;
   color: #fff;
 }
-/* line 397, ../sass/screen.scss */
+/* line 398, ../sass/screen.scss */
 .excited .event .event-left .event-left-inner p {
   color: #fff;
   text-transform: uppercase;
@@ -426,44 +427,44 @@ html input[type="button"], input[type="reset"], input[type="submit"], html input
   font-weight: 400;
   /*padding-top: 10px;*/
 }
-/* line 405, ../sass/screen.scss */
+/* line 406, ../sass/screen.scss */
 .excited .event .event-left .event-left-inner .btn-small {
   background-color: #fff;
   color: #F48F78;
   margin-top: 10px;
 }
-/* line 410, ../sass/screen.scss */
+/* line 411, ../sass/screen.scss */
 .excited .event .event-left .event-left-inner .btn-small:hover {
   background-color: #f8f8f8;
 }
-/* line 415, ../sass/screen.scss */
+/* line 416, ../sass/screen.scss */
 .excited .event .event-right {
   position: relative;
   background: #fff;
 }
-/* line 419, ../sass/screen.scss */
+/* line 420, ../sass/screen.scss */
 .excited .event .event-right .event-right-inner {
   padding: 80px 20px;
 }
-/* line 421, ../sass/screen.scss */
+/* line 422, ../sass/screen.scss */
 .excited .event .event-right .event-right-inner p {
   font-size: 20px;
 }
 
-/* line 429, ../sass/screen.scss */
+/* line 430, ../sass/screen.scss */
 .cta {
   /*background: $primary-color;*/
   padding: 140px 0;
   text-align: center;
   border-top: 1px #ebebeb solid;
 }
-/* line 434, ../sass/screen.scss */
+/* line 435, ../sass/screen.scss */
 .cta h1 {
   font-weight: 400;
   color: #fff;
   font-size: 32px;
 }
-/* line 439, ../sass/screen.scss */
+/* line 440, ../sass/screen.scss */
 .cta .btn {
   background-color: #fff;
   width: 300px;
@@ -478,7 +479,7 @@ html input[type="button"], input[type="reset"], input[type="submit"], html input
   -o-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
-/* line 454, ../sass/screen.scss */
+/* line 455, ../sass/screen.scss */
 .cta .btn:hover {
   background-color: #f8f8f8;
   -webkit-transition: all 0.4s ease;
@@ -487,68 +488,147 @@ html input[type="button"], input[type="reset"], input[type="submit"], html input
   transition: all 0.4s ease;
 }
 
-/* line 463, ../sass/screen.scss */
+/* line 464, ../sass/screen.scss */
 .footer {
   background-color: #51415E;
   padding: 80px 0;
 }
-/* line 466, ../sass/screen.scss */
+/* line 467, ../sass/screen.scss */
 .footer .social-container {
   text-align: center;
 }
-/* line 469, ../sass/screen.scss */
+/* line 470, ../sass/screen.scss */
 .footer .social {
   padding: 0 10px;
   opacity: .8;
 }
-/* line 473, ../sass/screen.scss */
+/* line 474, ../sass/screen.scss */
 .footer .social:hover {
   opacity: 1;
 }
 
-/* line 479, ../sass/screen.scss */
+/* line 480, ../sass/screen.scss */
 .info-page .navbar {
   background-color: #F48F78;
 }
 
-/* line 485, ../sass/screen.scss */
+/* line 486, ../sass/screen.scss */
 .contact-page .bg {
   background: url(../img/thumbs-up.jpg);
   background-size: cover;
   top: -20%;
 }
-/* line 491, ../sass/screen.scss */
+/* line 492, ../sass/screen.scss */
 .contact-page .contact .content {
   padding: 80px 0 140px;
   background: #fff;
 }
-/* line 494, ../sass/screen.scss */
+/* line 495, ../sass/screen.scss */
 .contact-page .contact .content form .btn {
   font-size: 14px;
 }
-/* line 498, ../sass/screen.scss */
+/* line 499, ../sass/screen.scss */
 .contact-page .contact .banner {
-  padding: 150px 0;
-  background: rgba(0, 0, 0, 0.5);
+  padding: 110px 0;
+  background: rgba(81, 65, 94, 0.5);
 }
-/* line 501, ../sass/screen.scss */
+/* line 502, ../sass/screen.scss */
 .contact-page .contact .banner .header {
   color: #fff;
 }
 
 @media (max-width: 1170px) {
-  /* line 515, ../sass/screen.scss */
+  /* line 519, ../sass/screen.scss */
+  .what-we-do .what-we-do-segment .block .block-inner .block-inner-inner .block-inner-inner-inner h1 {
+    font-size: 18px;
+  }
+  /* line 527, ../sass/screen.scss */
   .what-we-do .what-we-do-segment .info h3 {
     font-size: 18px;
   }
-  /* line 518, ../sass/screen.scss */
+  /* line 530, ../sass/screen.scss */
   .what-we-do .what-we-do-segment .info p, .what-we-do .what-we-do-segment .info ol li {
     font-size: 14px;
   }
 }
+@media (max-width: 992px) {
+  /* line 541, ../sass/screen.scss */
+  .what-we-do .what-we-do-segment-right .block {
+    float: none;
+  }
+  /* line 543, ../sass/screen.scss */
+  .what-we-do .what-we-do-segment-right .block .block-inner {
+    margin-left: 0 !important;
+  }
+  /* line 547, ../sass/screen.scss */
+  .what-we-do .what-we-do-segment-right .info {
+    padding: 60px 10px 80px;
+  }
+  /* line 551, ../sass/screen.scss */
+  .what-we-do .what-we-do-segment {
+    padding: 80px 0;
+  }
+  /* line 553, ../sass/screen.scss */
+  .what-we-do .what-we-do-segment .block {
+    padding: 0;
+  }
+  /* line 555, ../sass/screen.scss */
+  .what-we-do .what-we-do-segment .block .block-img {
+    box-shadow: 0px 0px 25.6px 1.2px rgba(0, 0, 0, 0.07);
+  }
+  /* line 558, ../sass/screen.scss */
+  .what-we-do .what-we-do-segment .block .block-inner {
+    margin-left: 15%;
+    margin-top: 10%;
+    height: 80%;
+  }
+  /* line 564, ../sass/screen.scss */
+  .what-we-do .what-we-do-segment .block .block-inner .block-inner-inner .block-inner-inner-inner h1 {
+    font-size: 22px;
+  }
+  /* line 572, ../sass/screen.scss */
+  .what-we-do .what-we-do-segment .info {
+    top: 0;
+    transform: none;
+    padding: 60px 10px 80px;
+  }
+  /* line 577, ../sass/screen.scss */
+  .what-we-do .what-we-do-segment .info h3 {
+    font-size: 18px;
+    color: #fff;
+  }
+  /* line 581, ../sass/screen.scss */
+  .what-we-do .what-we-do-segment .info p, .what-we-do .what-we-do-segment .info ol li {
+    font-size: 14px;
+    color: #fff;
+  }
+}
 @media (max-width: 768px) {
-  /* line 528, ../sass/screen.scss */
+  /* line 592, ../sass/screen.scss */
   .contact .header {
     font-size: 28px;
+  }
+
+  /* line 599, ../sass/screen.scss */
+  .what-we-do .what-we-do-segment-right .block .block-inner {
+    margin-left: 0;
+  }
+  /* line 605, ../sass/screen.scss */
+  .what-we-do .what-we-do-segment {
+    padding: 0;
+  }
+  /* line 612, ../sass/screen.scss */
+  .what-we-do .what-we-do-segment .info {
+    position: relative;
+    padding: 60px 10px 80px;
+  }
+  /* line 615, ../sass/screen.scss */
+  .what-we-do .what-we-do-segment .info h3 {
+    color: #777;
+  }
+  /* line 618, ../sass/screen.scss */
+  .what-we-do .what-we-do-segment .info p, .what-we-do .what-we-do-segment .info ol li {
+    font-size: 14px;
+    color: #777;
   }
 }
