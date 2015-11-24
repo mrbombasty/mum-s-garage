@@ -216,10 +216,9 @@ html input[type="button"], input[type="reset"], input[type="submit"], html input
 		}
 
 		li{
-			font-size: 42px;
+			font-size: 40px;
 			list-style-type: none;
 			color: #FFFFFF;
-
 			display: none;
 			margin-top: -10px;
 		}
@@ -273,7 +272,7 @@ html input[type="button"], input[type="reset"], input[type="submit"], html input
 }
 
 .what-we-do{
-	padding-top: $section-padding;
+	padding: $section-padding 0;
 	background: #fff;
 	border-top: 1px $grey-line solid;
 
@@ -296,7 +295,7 @@ html input[type="button"], input[type="reset"], input[type="submit"], html input
 			    top: 0;
 			    width: 85%;
 			    margin-top: 15%;
-			    margin-left: 40px;
+			    margin-left: 10%;
 			    height: 70%;
 			    /*box-shadow: 0px 10px 60.14px 4px rgba(0, 0, 0, 0.25); */
 				.block-inner-inner{
@@ -351,7 +350,7 @@ html input[type="button"], input[type="reset"], input[type="submit"], html input
 		.block{
 			float: right;
 			.block-inner{
-				margin-left:-45px;
+				margin-left:-10%;
 			}
 		}
 		.info{
@@ -388,7 +387,7 @@ html input[type="button"], input[type="reset"], input[type="submit"], html input
 			background-size: cover;
 			background-position: 40% 0; 
 			.event-left-inner{
-				padding: 0 80px;
+				
 				position: absolute;
 				left: 0;
 				top: 50%;
@@ -424,7 +423,7 @@ html input[type="button"], input[type="reset"], input[type="submit"], html input
 			.event-right-inner{
 				padding: 80px 20px;
 				p{
-					font-size: 20px;
+					font-size: 19px;
 				}
 			}
 		}
@@ -556,11 +555,12 @@ html input[type="button"], input[type="reset"], input[type="submit"], html input
 
 @media (max-width: 992px){
 	.what-we-do{
+		padding-bottom: 0;
 		.what-we-do-segment-right {
 			.block{
-				float: none;
+				/*float: none;*/
 				.block-inner{
-					margin-left: 0 !important;
+					margin-left: -15% !important;
 				}
 			}
 			.info{
@@ -568,16 +568,14 @@ html input[type="button"], input[type="reset"], input[type="submit"], html input
 			}
 		}
 		.what-we-do-segment{
-			padding: 80px 0;
+			
 			.block{
 				padding: 0;
 				.block-img{
 					box-shadow: 0px 0px 25.6px 1.2px rgba(0, 0, 0, 0.07);
 				}
 				.block-inner{
-					margin-left: 15%;
-					margin-top: 10%;
-					height: 80%;
+					margin-left: 30%;
 					.block-inner-inner{ 
 						.block-inner-inner-inner{
 							 h1{
@@ -590,34 +588,58 @@ html input[type="button"], input[type="reset"], input[type="submit"], html input
 
 			.info{
 				
-				top:0;
+				position: relative;
 				transform: none;
-				padding: 60px 10px 80px;
+				padding: 40px 10px 100px;
 				h3{
 					font-size: 18px;
-					color:#fff;
+					
 				}
 				p, ol li{
 					font-size: 14px;
-					color: #fff;
+					
 				}
 			}
 		}
 	}
+
 }
 
 @media (max-width: 768px){
-	.contact{
-		.header{
-			font-size: 28px;
+	$section-padding: 100px;
+	p{
+		font-size: 14px;
+	}
+	.header{
+		font-size: 28px;
+	}
+	.intro{
+
+		.intro-center{
+			h1{
+				font-size: 32px;
+			}
+			li{
+				font-size: 32px;
+			}
 		}
 	}
+	.mission{
+		padding: 100px 0;
+		h1{
+			font-size: 20px;
+		}
+	}
+
+
 	.what-we-do{
+		padding-top: 100px;
 		.what-we-do-segment-right {
 			.block{
+				float: none;
 				.block-inner{
 					
-					margin-left: 0;
+					margin-left: 0 !important;
 				}
 			}
 		}
@@ -625,18 +647,54 @@ html input[type="button"], input[type="reset"], input[type="submit"], html input
 			padding: 0;
 			.block{
 				.block-inner{
-					
+					margin-left: 15%;
+					margin-top: 10%;
+					height: 80%;
 				}
 			}
 			.info{
 				position: relative;
-				padding: 60px 10px 80px;
+				
 				h3{
 					color: $body-color;
 				}
 				p, ol li{
-					font-size: 14px;
+
 					color: $body-color;
+				}
+			}
+		}
+	}
+	.excited{
+		padding: 100px 0;
+		.event{
+			.event-left{
+				margin-top: 40px;
+			}
+			.event-right{
+				.event-right-inner{
+					p{
+						font-size: 17px;
+					}
+				}
+			}
+		}
+	}
+	.cta{
+		padding: 100px 0;
+		h1{
+			font-size:32px;
+		}
+	}
+	.contact-page{
+		.bg{
+			background-position:50% 0;
+		}
+		.contact{
+			.banner{
+				padding: 90px 0;
+				.header{
+					font-size: 24px;
 				}
 			}
 		}
