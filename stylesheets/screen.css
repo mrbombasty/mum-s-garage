@@ -520,113 +520,125 @@ html input[type="button"], input[type="reset"], input[type="submit"], html input
 }
 /* line 492, ../sass/screen.scss */
 .contact-page .contact .content {
-  padding: 80px 0 140px;
+  padding: 80px 0 80px;
   background: #fff;
 }
-/* line 495, ../sass/screen.scss */
-.contact-page .contact .content form .btn {
+/* line 496, ../sass/screen.scss */
+.contact-page .contact .content .thanks {
+  display: none;
+}
+/* line 498, ../sass/screen.scss */
+.contact-page .contact .content .thanks h1 {
+  font-size: 28px;
+  font-weight: 400;
+  text-align: center;
+  padding: 140px 0;
+  margin: 0;
+}
+/* line 508, ../sass/screen.scss */
+.contact-page .contact .content contact-form-section form .btn {
   font-size: 14px;
 }
-/* line 499, ../sass/screen.scss */
+/* line 514, ../sass/screen.scss */
 .contact-page .contact .banner {
   padding: 110px 0;
   background: rgba(81, 65, 94, 0.5);
 }
-/* line 502, ../sass/screen.scss */
+/* line 517, ../sass/screen.scss */
 .contact-page .contact .banner .header {
   color: #fff;
 }
 
 @media (max-width: 1170px) {
-  /* line 519, ../sass/screen.scss */
+  /* line 534, ../sass/screen.scss */
   .what-we-do .what-we-do-segment .block .block-inner .block-inner-inner .block-inner-inner-inner h1 {
     font-size: 18px;
   }
-  /* line 527, ../sass/screen.scss */
+  /* line 542, ../sass/screen.scss */
   .what-we-do .what-we-do-segment .info h3 {
     font-size: 18px;
   }
-  /* line 530, ../sass/screen.scss */
+  /* line 545, ../sass/screen.scss */
   .what-we-do .what-we-do-segment .info p, .what-we-do .what-we-do-segment .info ol li {
     font-size: 14px;
   }
 }
 @media (max-width: 992px) {
-  /* line 541, ../sass/screen.scss */
+  /* line 556, ../sass/screen.scss */
   .what-we-do .what-we-do-segment-right .block {
     float: none;
   }
-  /* line 543, ../sass/screen.scss */
+  /* line 558, ../sass/screen.scss */
   .what-we-do .what-we-do-segment-right .block .block-inner {
     margin-left: 0 !important;
   }
-  /* line 547, ../sass/screen.scss */
+  /* line 562, ../sass/screen.scss */
   .what-we-do .what-we-do-segment-right .info {
     padding: 60px 10px 80px;
   }
-  /* line 551, ../sass/screen.scss */
+  /* line 566, ../sass/screen.scss */
   .what-we-do .what-we-do-segment {
     padding: 80px 0;
   }
-  /* line 553, ../sass/screen.scss */
+  /* line 568, ../sass/screen.scss */
   .what-we-do .what-we-do-segment .block {
     padding: 0;
   }
-  /* line 555, ../sass/screen.scss */
+  /* line 570, ../sass/screen.scss */
   .what-we-do .what-we-do-segment .block .block-img {
     box-shadow: 0px 0px 25.6px 1.2px rgba(0, 0, 0, 0.07);
   }
-  /* line 558, ../sass/screen.scss */
+  /* line 573, ../sass/screen.scss */
   .what-we-do .what-we-do-segment .block .block-inner {
     margin-left: 15%;
     margin-top: 10%;
     height: 80%;
   }
-  /* line 564, ../sass/screen.scss */
+  /* line 579, ../sass/screen.scss */
   .what-we-do .what-we-do-segment .block .block-inner .block-inner-inner .block-inner-inner-inner h1 {
     font-size: 22px;
   }
-  /* line 572, ../sass/screen.scss */
+  /* line 587, ../sass/screen.scss */
   .what-we-do .what-we-do-segment .info {
     top: 0;
     transform: none;
     padding: 60px 10px 80px;
   }
-  /* line 577, ../sass/screen.scss */
+  /* line 592, ../sass/screen.scss */
   .what-we-do .what-we-do-segment .info h3 {
     font-size: 18px;
     color: #fff;
   }
-  /* line 581, ../sass/screen.scss */
+  /* line 596, ../sass/screen.scss */
   .what-we-do .what-we-do-segment .info p, .what-we-do .what-we-do-segment .info ol li {
     font-size: 14px;
     color: #fff;
   }
 }
 @media (max-width: 768px) {
-  /* line 592, ../sass/screen.scss */
+  /* line 607, ../sass/screen.scss */
   .contact .header {
     font-size: 28px;
   }
 
-  /* line 599, ../sass/screen.scss */
+  /* line 614, ../sass/screen.scss */
   .what-we-do .what-we-do-segment-right .block .block-inner {
     margin-left: 0;
   }
-  /* line 605, ../sass/screen.scss */
+  /* line 620, ../sass/screen.scss */
   .what-we-do .what-we-do-segment {
     padding: 0;
   }
-  /* line 612, ../sass/screen.scss */
+  /* line 627, ../sass/screen.scss */
   .what-we-do .what-we-do-segment .info {
     position: relative;
     padding: 60px 10px 80px;
   }
-  /* line 615, ../sass/screen.scss */
+  /* line 630, ../sass/screen.scss */
   .what-we-do .what-we-do-segment .info h3 {
     color: #777;
   }
-  /* line 618, ../sass/screen.scss */
+  /* line 633, ../sass/screen.scss */
   .what-we-do .what-we-do-segment .info p, .what-we-do .what-we-do-segment .info ol li {
     font-size: 14px;
     color: #777;
