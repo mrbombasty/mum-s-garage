@@ -65,6 +65,8 @@
                             // if (nextPage){
                             //     window.location.replace(nextPage);
                             // }
+                            $('#contact_form').css("display", "none");
+                            $('#thanks').css("display", "block");
                         },
                         200: function() {
                             //Success Message
