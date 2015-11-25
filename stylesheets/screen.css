@@ -494,7 +494,7 @@ html input[type="button"], input[type="reset"], input[type="submit"], html input
 
 /* line 468, ../sass/screen.scss */
 .footer {
-  background-color: #51415E;
+  background-color: #463D4E;
   padding: 80px 0;
 }
 /* line 471, ../sass/screen.scss */
@@ -545,7 +545,7 @@ html input[type="button"], input[type="reset"], input[type="submit"], html input
 }
 /* line 518, ../sass/screen.scss */
 .contact-page .contact .banner {
-  padding: 110px 0;
+  padding: 140px 0;
   background: rgba(81, 65, 94, 0.5);
 }
 /* line 521, ../sass/screen.scss */
