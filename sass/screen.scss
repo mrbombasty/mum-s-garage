@@ -273,15 +273,18 @@ html input[type="button"], input[type="reset"], input[type="submit"], html input
 }
 
 .what-we-do{
-	padding: $section-padding 0;
+	padding: $section-padding 0 80px;
 	background: #fff;
 	border-top: 1px $grey-line solid;
+	.header-dash{
+		margin-bottom: 0;
+	}
 
 	.what-we-do-segment{
 		position: relative;
 		background-color: #fff;
 		z-index: 2;
-
+		padding: 40px 0;
 		.block{
 			padding: 40px;
 
@@ -544,10 +547,10 @@ html input[type="button"], input[type="reset"], input[type="submit"], html input
 				}
 			.info{
 				h3{
-					font-size: 18px;
+					font-size: 20px;
 				}
 				p, ol li{
-					font-size: 14px;
+					font-size: 16px;
 				}
 			}
 		}
