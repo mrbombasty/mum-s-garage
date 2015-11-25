@@ -232,6 +232,7 @@ html input[type="button"], input[type="reset"], input[type="submit"], html input
 			margin-top: 40px;
 			font-weight: 400;
 			letter-spacing: 1px;
+			max-width: 100%;
 		}
 		.btn:hover{
 			background: #fff;
@@ -606,7 +607,7 @@ html input[type="button"], input[type="reset"], input[type="submit"], html input
 }
 
 @media (max-width: 768px){
-	$section-padding: 100px;
+
 	p{
 		font-size: 14px;
 	}
@@ -614,7 +615,7 @@ html input[type="button"], input[type="reset"], input[type="submit"], html input
 		font-size: 28px;
 	}
 	.intro{
-
+		padding: 60px 0 120px;
 		.intro-center{
 			h1{
 				font-size: 32px;
