@@ -11,8 +11,9 @@ $standard-line-height: 1.5;
 $header-color: #777;
 $body-color: #777;
 $grey-bg: #f9fbfc;
-$dark-bg: #463D4E;
-$grey-line: #ebebeb;
+$dark-bg: #51445D;
+$grey-line: #DBE3E9;
+$grey-text: #c9d0d6;
 $section-padding: 140px;
 $btn-transition: 0.2s;
 
@@ -63,13 +64,29 @@ form{
 
 input, textarea{
 	width: 100%;
-	padding: 20px 0;
-	border:1px #ddd solid;
+	padding: 16px 0;
+	border:1px $grey-line solid;
 	border-radius: 4px;
 	padding-left: 20px;
 	margin-top: 20px;
-	font-size: 16px;
+	font-size: 15px;
 	font-family: $main-font;
+}
+
+::-webkit-input-placeholder {
+   color: $grey-text;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+    color: $grey-text;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+    color: $grey-text;  
+}
+
+:-ms-input-placeholder {  
+    color: $grey-text;  
 }
 
 
@@ -199,7 +216,7 @@ html input[type="button"], input[type="reset"], input[type="submit"], html input
 			margin-bottom: 20px;
 		}
 		h1{
-			font-size: 40px;
+			font-size: 38px;
 			color: #fff;
 			margin-top: 0;
 		}
@@ -519,10 +536,10 @@ html input[type="button"], input[type="reset"], input[type="submit"], html input
 		}
 		}	
 		.banner{
-			padding: 140px 0;
+			padding: 180px 0 80px;
 			background: rgba(81,65,94,.5);
 			.header{
-			color: #fff;
+				color: #fff;
 			}
 		}
 		
@@ -638,6 +655,9 @@ html input[type="button"], input[type="reset"], input[type="submit"], html input
 
 	.what-we-do{
 		padding-top: 100px;
+		.header-dash{
+			margin-bottom: 40px;
+		}
 		.what-we-do-segment-right {
 			.block{
 				float: none;
@@ -696,7 +716,7 @@ html input[type="button"], input[type="reset"], input[type="submit"], html input
 		}
 		.contact{
 			.banner{
-				padding: 90px 0;
+				padding: 120px 0 60px;
 				.header{
 					font-size: 24px;
 				}
