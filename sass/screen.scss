@@ -164,7 +164,7 @@ html input[type="button"], input[type="reset"], input[type="submit"], html input
 .navbar-toggle {
 	display: block;
 	padding: 0;
-	margin-top: 28px;
+	margin-top: 23px;
 }
 .navbar-default .navbar-collapse {
 	border: none;
@@ -455,7 +455,6 @@ html input[type="button"], input[type="reset"], input[type="submit"], html input
 	/*background: $primary-color;*/
 	padding: $section-padding 0;
 	text-align: center;
-	border-top: 1px $grey-line solid;
 	h1{
 		font-weight: 400;
 		color: #fff;
@@ -547,6 +546,74 @@ html input[type="button"], input[type="reset"], input[type="submit"], html input
 	}
 }
 
+.about-page{
+	p{
+		text-align: left;
+		margin: 25px 0;
+	}
+	.about{
+		text-align: center;
+		padding: $section-padding 0 280px;
+		background: #fff;
+		.header-dash{
+			margin-bottom: 40px;
+		}
+
+		.btn{
+			background:$primary-color;
+			margin: 0 auto;
+			margin-top: 40px;
+		}
+	}
+	.story{
+		background-image: -webkit-gradient(
+			linear,
+			left top,
+			left bottom,
+			color-stop(0, #F09A87),
+			color-stop(1, #E1787D)
+		);
+		background-image: -o-linear-gradient(bottom, #F09A87 0%, #E1787D 100%);
+		background-image: -moz-linear-gradient(bottom, #F09A87 0%, #E1787D 100%);
+		background-image: -webkit-linear-gradient(bottom, #F09A87 0%, #E1787D 100%);
+		background-image: -ms-linear-gradient(bottom, #F09A87 0%, #E1787D 100%);
+		background-image: linear-gradient(to bottom, #F09A87 0%, #E1787D 100%);
+		padding: $section-padding 0;
+		h1{
+			color:#fff;
+			font-size: 55px;
+			text-align: right;
+			font-weight: 600;
+			position: absolute;
+			width: 100%;
+		}
+		img{
+			margin-top: -300px;
+			margin-bottom: 40px;
+			box-shadow: 0px 0px 25.6px 1.2px rgba(0, 0, 0, 0.2);
+			padding: 0;
+		}
+		p{
+			color: #fff;
+		}
+		a{
+			font-weight: 700;
+			color: #fff;
+		}
+	}
+	.quote{
+		padding: $section-padding 0;
+		background: #fff;
+		h1{
+			font-size:24px;
+			
+		}		
+	}
+	.cta{
+
+	}
+}
+
 
 @media (max-width: 1170px){
 	.what-we-do{
@@ -572,6 +639,18 @@ html input[type="button"], input[type="reset"], input[type="submit"], html input
 			}
 		}
 	}
+	.about-page{
+		.story{
+			h1{
+				font-size: 44px;
+				text-align: left;
+			}
+			img{
+				margin-bottom: 80px;
+			}
+		}
+	}
+
 }
 
 @media (max-width: 992px){
@@ -620,6 +699,14 @@ html input[type="button"], input[type="reset"], input[type="submit"], html input
 					font-size: 14px;
 					
 				}
+			}
+		}
+	}
+	.about-page{
+		.story{
+			h1{
+				position: relative;
+				text-align: left;
 			}
 		}
 	}

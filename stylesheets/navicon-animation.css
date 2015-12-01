@@ -4,7 +4,7 @@
   transition: .3s;
   cursor: pointer;
   user-select: none;
-  border-radius: 0.42857rem;
+  border-radius: 0.28571rem;
 }
 /* line 12, ../sass/navicon-animation.scss */
 .lines-button:hover {
@@ -19,10 +19,10 @@
 /* line 31, ../sass/navicon-animation.scss */
 .lines {
   display: inline-block;
-  width: 3rem;
+  width: 2rem;
   height: 3px;
   background: #fff;
-  border-radius: 0.21429rem;
+  border-radius: 0.14286rem;
   transition: 0.2s;
   position: relative;
   /*create the upper and lower lines as pseudo-elements of the middle line*/
@@ -30,23 +30,23 @@
 /* line 37, ../sass/navicon-animation.scss */
 .lines:before, .lines:after {
   display: inline-block;
-  width: 3rem;
+  width: 2rem;
   height: 3px;
   background: #fff;
-  border-radius: 0.21429rem;
+  border-radius: 0.14286rem;
   transition: 0.2s;
   position: absolute;
   left: 0;
   content: '';
-  transform-origin: 0.21429rem center;
+  transform-origin: 0.14286rem center;
 }
 /* line 45, ../sass/navicon-animation.scss */
 .lines:before {
-  top: 0.75rem;
+  top: 0.5rem;
 }
 /* line 46, ../sass/navicon-animation.scss */
 .lines:after {
-  top: -0.8rem;
+  top: 1rem;
 }
 
 /* line 49, ../sass/navicon-animation.scss */
@@ -65,7 +65,7 @@ button.close, button.close:focus {
 .lines-button.x.close .lines:before, .lines-button.x.close .lines:after {
   transform-origin: 50% 50%;
   top: 0;
-  width: 3rem;
+  width: 2rem;
 }
 /* line 67, ../sass/navicon-animation.scss */
 .lines-button.x.close .lines:before {

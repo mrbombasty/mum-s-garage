@@ -1,4 +1,4 @@
-$button-size : 3rem; 
+$button-size : 2rem; 
 $transition: .2s; // increase this to see the transformations in slow-motion
 $color: #fff;
  
@@ -43,7 +43,7 @@ $color: #fff;
     transform-origin: $button-size/14 center;
   }
   &:before { top: $button-size/4; }
-  &:after { top: -0.8rem; }
+  &:after { top: $button-size/2; }
 }
 
 button.close, button.close:focus{
