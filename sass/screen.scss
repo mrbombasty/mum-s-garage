@@ -28,7 +28,7 @@ h1, h2, h3, h4, h5, p, a, ol li,ul li,li{
 
 p, ol li, h3,input, textarea{
 	color: $body-color;
-	font-size: 17px;
+	font-size: 18px;
 	letter-spacing: $standard-spacing;
 }
 
@@ -219,7 +219,7 @@ html input[type="button"], input[type="reset"], input[type="submit"], html input
 			font-size: 38px;
 			color: #fff;
 			margin-top: 0;
-			font-weight: 400;
+			font-weight: 300;
 		}
 
 		h3{
@@ -239,7 +239,7 @@ html input[type="button"], input[type="reset"], input[type="submit"], html input
 			color: #FFFFFF;
 			display: none;
 			margin-top: -10px;
-			font-weight: 400;
+			font-weight: 300;
 		}
 		p{
 			padding: 15px 0 30px;
@@ -709,14 +709,7 @@ html input[type="button"], input[type="reset"], input[type="submit"], html input
 			}
 		}
 	}
-	.about-page{
-		.story{
-			h1{
-				position: relative;
-				text-align: left;
-			}
-		}
-	}
+	
 
 }
 
@@ -814,6 +807,14 @@ html input[type="button"], input[type="reset"], input[type="submit"], html input
 				.header{
 					font-size: 24px;
 				}
+			}
+		}
+	}
+	.about-page{
+		.story{
+			h1{
+				position: relative;
+				text-align: left;
 			}
 		}
 	}

@@ -14,7 +14,7 @@ h1, h2, h3, h4, h5, p, a, ol li, ul li, li {
 /* line 29, ../sass/screen.scss */
 p, ol li, h3, input, textarea {
   color: #777;
-  font-size: 17px;
+  font-size: 18px;
   letter-spacing: 0.5px;
 }
 
@@ -233,7 +233,7 @@ html input[type="button"], input[type="reset"], input[type="submit"], html input
   font-size: 38px;
   color: #fff;
   margin-top: 0;
-  font-weight: 400;
+  font-weight: 300;
 }
 /* line 225, ../sass/screen.scss */
 .intro .intro-center h3 {
@@ -253,7 +253,7 @@ html input[type="button"], input[type="reset"], input[type="submit"], html input
   color: #FFFFFF;
   display: none;
   margin-top: -10px;
-  font-weight: 400;
+  font-weight: 300;
 }
 /* line 244, ../sass/screen.scss */
 .intro .intro-center p {
@@ -722,117 +722,117 @@ html input[type="button"], input[type="reset"], input[type="submit"], html input
   .what-we-do .what-we-do-segment .info p, .what-we-do .what-we-do-segment .info ol li {
     font-size: 14px;
   }
-
-  /* line 714, ../sass/screen.scss */
-  .about-page .story h1 {
-    position: relative;
-    text-align: left;
-  }
 }
 @media (max-width: 768px) {
-  /* line 725, ../sass/screen.scss */
+  /* line 718, ../sass/screen.scss */
   p {
     font-size: 14px;
   }
 
-  /* line 728, ../sass/screen.scss */
+  /* line 721, ../sass/screen.scss */
   .header {
     font-size: 28px;
   }
 
-  /* line 731, ../sass/screen.scss */
+  /* line 724, ../sass/screen.scss */
   .intro {
     padding: 60px 0 120px;
   }
-  /* line 734, ../sass/screen.scss */
+  /* line 727, ../sass/screen.scss */
   .intro .intro-center h1 {
     font-size: 32px;
   }
-  /* line 737, ../sass/screen.scss */
+  /* line 730, ../sass/screen.scss */
   .intro .intro-center li {
     font-size: 32px;
   }
 
-  /* line 742, ../sass/screen.scss */
+  /* line 735, ../sass/screen.scss */
   .mission {
     padding: 100px 0;
   }
-  /* line 744, ../sass/screen.scss */
+  /* line 737, ../sass/screen.scss */
   .mission h1 {
     font-size: 20px;
   }
 
-  /* line 750, ../sass/screen.scss */
+  /* line 743, ../sass/screen.scss */
   .what-we-do {
     padding-top: 100px;
   }
-  /* line 752, ../sass/screen.scss */
+  /* line 745, ../sass/screen.scss */
   .what-we-do .header-dash {
     margin-bottom: 40px;
   }
-  /* line 756, ../sass/screen.scss */
+  /* line 749, ../sass/screen.scss */
   .what-we-do .what-we-do-segment-right .block {
     float: none;
   }
-  /* line 758, ../sass/screen.scss */
+  /* line 751, ../sass/screen.scss */
   .what-we-do .what-we-do-segment-right .block .block-inner {
     margin-left: 0 !important;
   }
-  /* line 764, ../sass/screen.scss */
+  /* line 757, ../sass/screen.scss */
   .what-we-do .what-we-do-segment {
     padding: 0;
   }
-  /* line 767, ../sass/screen.scss */
+  /* line 760, ../sass/screen.scss */
   .what-we-do .what-we-do-segment .block .block-inner {
     margin-left: 15%;
     margin-top: 10%;
     height: 80%;
   }
-  /* line 773, ../sass/screen.scss */
+  /* line 766, ../sass/screen.scss */
   .what-we-do .what-we-do-segment .info {
     position: relative;
   }
-  /* line 776, ../sass/screen.scss */
+  /* line 769, ../sass/screen.scss */
   .what-we-do .what-we-do-segment .info h3 {
     color: #777;
   }
-  /* line 779, ../sass/screen.scss */
+  /* line 772, ../sass/screen.scss */
   .what-we-do .what-we-do-segment .info p, .what-we-do .what-we-do-segment .info ol li {
     color: #777;
   }
 
-  /* line 786, ../sass/screen.scss */
+  /* line 779, ../sass/screen.scss */
   .excited {
     padding: 100px 0;
   }
-  /* line 789, ../sass/screen.scss */
+  /* line 782, ../sass/screen.scss */
   .excited .event .event-left {
     margin-top: 40px;
   }
-  /* line 794, ../sass/screen.scss */
+  /* line 787, ../sass/screen.scss */
   .excited .event .event-right .event-right-inner p {
     font-size: 17px;
   }
 
-  /* line 801, ../sass/screen.scss */
+  /* line 794, ../sass/screen.scss */
   .cta {
     padding: 100px 0;
   }
-  /* line 803, ../sass/screen.scss */
+  /* line 796, ../sass/screen.scss */
   .cta h1 {
     font-size: 32px;
   }
 
-  /* line 808, ../sass/screen.scss */
+  /* line 801, ../sass/screen.scss */
   .contact-page .bg {
     background-position: 50% 0;
   }
-  /* line 812, ../sass/screen.scss */
+  /* line 805, ../sass/screen.scss */
   .contact-page .contact .banner {
     padding: 120px 0 60px;
   }
-  /* line 814, ../sass/screen.scss */
+  /* line 807, ../sass/screen.scss */
   .contact-page .contact .banner .header {
     font-size: 24px;
+  }
+
+  /* line 815, ../sass/screen.scss */
+  .about-page .story h1 {
+    position: relative;
+    text-align: left;
   }
 }
