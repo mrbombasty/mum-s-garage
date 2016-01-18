@@ -682,8 +682,8 @@ html input[type="button"], input[type="reset"], input[type="submit"], html input
 .event-page{
 	/*background:$event-bg;*/
 	.segment{
-		padding-top: 120px;
-		padding-bottom: 120px;
+		padding-top: 100px;
+		padding-bottom: 100px;
 		border-bottom: 1px #e7eff5 solid;
 	}
 	.header{
@@ -752,8 +752,8 @@ html input[type="button"], input[type="reset"], input[type="submit"], html input
 						.register-container{
 							/*text-align: center;*/
 							.btn-small{
-								background: $primary-color;
-								color: #fff;
+								background: #fff;
+								color: $primary-color;
 								border-color: $primary-color;
 								margin-top:20px;
 							}
@@ -795,7 +795,7 @@ html input[type="button"], input[type="reset"], input[type="submit"], html input
 								font-weight: 400;
 								font-size: 24px;
 								color: $primary-color;
-								margin: 25px 0 40px;
+								margin: 25px 40px 40px;
 								opacity: .8;
 								padding-left: 10px;
 								text-align: center;
@@ -805,6 +805,7 @@ html input[type="button"], input[type="reset"], input[type="submit"], html input
 								padding: 70px 20px;
 								background: #fff;
 								margin-bottom: 10px;
+								height: 430px;
 								.speaker-pic{
 									width: 100px;
 									border-radius: 100%;
@@ -858,7 +859,59 @@ html input[type="button"], input[type="reset"], input[type="submit"], html input
 	}
 	.cta{
 		/*background: rgba(234,117,123,.8);*/
+		.thanks-signup{
+			display: none;
+		}
+		.signup-section{
 
+			input{
+				margin-top: 40px;
+				height: 70px;
+				font-size: 18px;
+				padding-left: 25px;
+				background:transparent;
+				border: 2px solid #fff;
+				color: #fff;
+			}
+			::-webkit-input-placeholder {
+			   color: #fff;
+			   opacity: .8;
+			}
+
+			:-moz-placeholder { /* Firefox 18- */
+			    color: #fff; 
+			    opacity: .8;
+			}
+
+			::-moz-placeholder {  /* Firefox 19+ */
+			    color: #fff;
+			    opacity: .8;
+			}
+
+			:-ms-input-placeholder {  
+			    color: #fff;
+			    opacity: .8;
+			}
+			.btn-email{
+				background-color: #fff;
+			    padding: 18px 0;
+			    font-size: 16px;
+			    font-weight: 600;
+			    color: #f4787f;
+			    text-transform: uppercase;
+				-webkit-transition: all 0.4s ease;
+				-moz-transition:  all 0.4s ease;
+				-o-transition: all 0.4s ease;
+				transition: all 0.4s ease;
+			}
+			.btn-email:hover{
+				background-color: #f8f8f8;
+				-webkit-transition: all 0.4s ease;
+				-moz-transition:  all 0.4s ease;
+				-o-transition: all 0.4s ease;
+				transition: all 0.4s ease;
+			}
+		}
 	}
 }
 
