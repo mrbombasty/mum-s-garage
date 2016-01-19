@@ -29,7 +29,7 @@ h1, h2, h3, h4, h5, p, a, ol li,ul li,li{
 	color: $header-color;
 }
 
-p, ol li, h3,input, textarea{
+p, ol li, h3,input, textarea, ul li{
 	color: $body-color;
 	font-size: 18px;
 	letter-spacing: $standard-spacing;
@@ -237,7 +237,7 @@ html input[type="button"], input[type="reset"], input[type="submit"], html input
 }
 
 .intro{
-	padding: 100px 0 160px;
+	padding: 120px 0 160px;
 	text-align: center;
 	/*background: url(../img/bg.jpg);*/
 	/*background-size: cover;*/
@@ -442,7 +442,7 @@ html input[type="button"], input[type="reset"], input[type="submit"], html input
 		.event-left{
 			height: 300px;
 			margin-top: 80px;
-			padding: 0;
+			padding: 0 ;
 			position: relative;
 			background-size: cover;
 			background-position: 40% 0; 
@@ -452,6 +452,7 @@ html input[type="button"], input[type="reset"], input[type="submit"], html input
 				left: 0;
 				top: 50%;
 				width: 100%;
+				padding: 0 100px;
 				-webkit-transform: translateY(-50%);
 				-moz-transform: translateY(-50%);
 				-o-transform: translateY(-50%);
@@ -679,6 +680,14 @@ html input[type="button"], input[type="reset"], input[type="submit"], html input
 	}
 }
 
+.event-2{
+	.bg{
+		background: url(../img/event-2-large.jpg);
+		background-size: cover;
+		background-repeat: no-repeat; 
+	}
+}
+
 .event-page{
 	/*background:$event-bg;*/
 	.segment{
@@ -693,7 +702,6 @@ html input[type="button"], input[type="reset"], input[type="submit"], html input
 		text-align: left;
 		font-size: 14px;
 		margin-bottom: 40px;
-		padding-left: 10px;
 	}
 	.event-content{
 
@@ -701,24 +709,33 @@ html input[type="button"], input[type="reset"], input[type="submit"], html input
 			padding: 140px 0 40px;
 			position: relative;
 			p{
-				font-size: 23px;
+				font-size: 18px;
 				color: #fff;
 				font-weight: 400;
+				opacity: .8;
 			}
 			h1{
 				color: #fff;
 				font-weight: 600;
-				font-size: 45px;
+				font-size: 48px;
 			} 
+			h2{
+				color: #fff;
+				font-weight: 400;
+				font-size: 26px;
+				margin-top: 0;
+			}
 			.sidebar{
 				padding: 0;
 				position: absolute;
 			    right: 0;
 			    bottom: 0;
+			    margin-top: 20px;
+			    margin-bottom: 8px;
 				p{
 					padding-top: 0;
 					font-size: 12px;
-					opacity: .8;
+					opacity: .6;
 					text-transform: uppercase;
 					letter-spacing: 2px;
 					font-weight: 600;
@@ -727,7 +744,8 @@ html input[type="button"], input[type="reset"], input[type="submit"], html input
 				a h1{
 					font-size: 20px;
 					font-weight: 600;
-					opacity: .8;
+					opacity: .6;
+
 				}
 				a:hover{
 					text-decoration: none;
@@ -805,7 +823,7 @@ html input[type="button"], input[type="reset"], input[type="submit"], html input
 								padding: 70px 20px;
 								background: #fff;
 								margin-bottom: 10px;
-								height: 430px;
+								min-height: 430px;
 								.speaker-pic{
 									width: 100px;
 									border-radius: 100%;
@@ -843,6 +861,13 @@ html input[type="button"], input[type="reset"], input[type="submit"], html input
 							}
 						}
 					}	
+				}
+				.more-info{
+					h1{
+						font-size: 24px;
+						font-weight: 400;
+						margin: 80px 0 15px;
+					}
 				}
 				.what-people-thought{
 					.quote{
@@ -1054,7 +1079,7 @@ html input[type="button"], input[type="reset"], input[type="submit"], html input
 		white-space: normal;
 	}
 
-	p{
+	p, ul li{
 		font-size: 16px;
 	}
 	.header{
