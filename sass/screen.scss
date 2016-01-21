@@ -869,6 +869,22 @@ html input[type="button"], input[type="reset"], input[type="submit"], html input
 						margin: 80px 0 15px;
 					}
 				}
+				.prices{
+					h1, h2{
+						font-size: 24px;
+						font-weight: 400;
+						opacity: .6;
+
+					}
+					h2{
+						font-size: 40px;
+						color: $primary-color;
+						opacity: 1;
+						margin-top: 0;
+						padding-bottom: 20px;
+
+					}
+				}
 				.what-people-thought{
 					.quote{
 						font-weight: 400;
@@ -917,6 +933,7 @@ html input[type="button"], input[type="reset"], input[type="submit"], html input
 			    color: #fff;
 			    opacity: .8;
 			}
+
 			.btn-email{
 				background-color: #fff;
 			    padding: 18px 0;
