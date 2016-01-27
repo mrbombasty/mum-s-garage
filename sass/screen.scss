@@ -692,6 +692,13 @@ html input[type="button"], input[type="reset"], input[type="submit"], html input
 	}
 }
 
+.accelerator-1{
+	.bg{
+		background: url(../img/accelerator-1-large.jpg);
+		background-size: cover;
+		background-repeat: no-repeat; 
+	}
+}
 
 
 .event-page{
@@ -712,7 +719,7 @@ html input[type="button"], input[type="reset"], input[type="submit"], html input
 	.event-content{
 
 		.banner{
-			padding: 140px 0 40px;
+			padding: 140px 0 30px;
 			position: relative;
 			p{
 				font-size: 18px;
