@@ -147,12 +147,17 @@ html input[type="button"], input[type="reset"], input[type="submit"], html input
 			font-size: 16px;
 		}
 	}
+	.navbar-nav .open .dropdown-menu>li>a,.navbar-default .navbar-nav .open .dropdown-menu>li>a:hover{
+		padding: 0 0 20px 0;
+	}
+
 	.navbar-nav>.open>a, .navbar-nav>.open>a:focus, .navbar-nav>.open>a:hover, .navbar-nav>.open>a:active {
 		background: transparent;
 		color: #fff;
 		border:none;
 		font-size: 16px;
 		}
+
 	.navbar-nav li a, .navbar-nav li a:hover{
 		text-align: center;
 		color: #fff;
@@ -440,7 +445,7 @@ html input[type="button"], input[type="reset"], input[type="submit"], html input
 	.event{
 		text-align: center;
 		.event-left{
-			height: 300px;
+			min-height: 300px;
 			margin-top: 80px;
 			padding: 0 ;
 			position: relative;
@@ -452,7 +457,6 @@ html input[type="button"], input[type="reset"], input[type="submit"], html input
 				left: 0;
 				top: 50%;
 				width: 100%;
-				padding: 0 100px;
 				-webkit-transform: translateY(-50%);
 				-moz-transform: translateY(-50%);
 				-o-transform: translateY(-50%);
@@ -688,6 +692,8 @@ html input[type="button"], input[type="reset"], input[type="submit"], html input
 	}
 }
 
+
+
 .event-page{
 	/*background:$event-bg;*/
 	.segment{
@@ -722,7 +728,7 @@ html input[type="button"], input[type="reset"], input[type="submit"], html input
 			h2{
 				color: #fff;
 				font-weight: 400;
-				font-size: 26px;
+				font-size: 24px;
 				margin-top: 0;
 			}
 			.sidebar{
@@ -764,6 +770,11 @@ html input[type="button"], input[type="reset"], input[type="submit"], html input
 				margin-top: -100px;
 				background: #fff;
 				display: block;
+				h1{
+					font-size: 26px;
+					font-weight: 400;
+					margin-top: 0;
+				}
 				.description{
 					.row{
 						margin: 0;
@@ -864,8 +875,6 @@ html input[type="button"], input[type="reset"], input[type="submit"], html input
 				}
 				.more-info{
 					h1{
-						font-size: 24px;
-						font-weight: 400;
 						margin: 80px 0 15px;
 					}
 				}
@@ -938,7 +947,7 @@ html input[type="button"], input[type="reset"], input[type="submit"], html input
 				background-color: #fff;
 			    padding: 18px 0;
 			    font-size: 16px;
-			    font-weight: 600;
+			    font-weight: 700;
 			    color: #f4787f;
 			    text-transform: uppercase;
 				-webkit-transition: all 0.4s ease;
@@ -956,7 +965,17 @@ html input[type="button"], input[type="reset"], input[type="submit"], html input
 		}
 	}
 }
-
+.accelerator-1{
+	.cta {
+		h1{
+			font-size: 28px;
+			margin-bottom: 20px;
+		}
+		.signup-section input {
+			margin-top: 20px;
+		}
+	}
+}
 
 @media (max-width: 1170px){
 	.what-we-do{
@@ -1090,6 +1109,7 @@ html input[type="button"], input[type="reset"], input[type="submit"], html input
 
 	.navbar-default .navbar-nav .open .dropdown-menu>li>a,.navbar-default .navbar-nav .open .dropdown-menu>li>a:hover{
 		color: #fff;
+		padding: 0 0 20px 0;
 	}
 
 	.dropdown-menu>li>a{
