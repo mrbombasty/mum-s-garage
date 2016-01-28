@@ -527,8 +527,13 @@ html input[type="button"], input[type="reset"], input[type="submit"], html input
 .footer{
 	background-color: $grey-bg;
 	padding: 80px 0 20px;
+	iframe{
+		display: inline-block !important;
+		width: 49%;
+	}
 	.social-container{
 		text-align: center;
+		padding-top: 80px;
 	}
 	.social{
 		padding: 0 10px 80px;
@@ -1085,6 +1090,11 @@ html input[type="button"], input[type="reset"], input[type="submit"], html input
 			h1{
 				font-size: 22px;
 			}
+		}
+	}
+	.footer{
+		iframe{
+			width: 100%;
 		}
 	}
 	.event-page{
