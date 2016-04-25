@@ -1002,6 +1002,15 @@ html input[type="button"], input[type="reset"], input[type="submit"], html input
 	}
 }
 
+.news-2{
+	.banner{
+		background: url(../img/news-2-banner.jpg);
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat; 
+	}
+}
+
 .news-page{
 	.navbar {
 		background-color: #F48F78;
