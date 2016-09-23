@@ -34,6 +34,58 @@ a, a:hover {
   font-weight: 400;
 }
 
+.btn-normal {
+  color: #f4787f;
+  text-transform: uppercase;
+  border-radius: 100px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  box-shadow: none;
+  /*f4787f*/
+  border: 2px solid #f4787f;
+  background-color: #fff;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 16px;
+  margin-top: 50px;
+  font-weight: 600;
+}
+
+.btn-normal:focus, .btn-normal:hover {
+  background: #f4787f;
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn-solution {
+  color: #fff;
+  text-transform: uppercase;
+  border-radius: 100px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  box-shadow: none;
+  /*f4787f*/
+  border: 2px solid #fff;
+  background-color: rgba(0,0,0,0);
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 16px;
+  margin-top: 50px;
+  font-weight: 600;
+}
+
+.btn-solution:focus, .btn-solution:hover {
+  background: #fff;
+  color: #f4787f;
+  text-decoration: none;
+}
+
 /* line 48, ../sass/screen.scss */
 .btn, .btn:hover, .btn:focus {
   color: #fff;
@@ -310,6 +362,33 @@ html input[type="button"], input[type="reset"], input[type="submit"], html input
 .intro .intro-center .btn:hover {
   background: #fff;
   color: #e9747b;
+}
+
+.solution {
+  padding: 140px 0;
+  text-align: center;
+  
+}
+/* line 302, ../sass/screen.scss */
+.solution h1 {
+  font-size: 23px;
+  letter-spacing: 0.5px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.solution p{
+  color: #fff;
+}
+
+.solution-dash {
+  height: 5px;
+  width: 50px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  background: #FFFFFF;
 }
 
 /* line 298, ../sass/screen.scss */
